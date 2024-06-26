@@ -9,9 +9,18 @@
 header {
     text-align: center;
     background-color: lightblue;
+    height: 100px;
 }
 
-nav ul li { 
+nav ul li {
     display: inline;
     margin: auto 10px;
+}
+
+/* Logo */
+header div {
+    background-color: red;
+    float: left;
+    height: 100%;
+    width: 100px;  /*width must equal header height */
 }
