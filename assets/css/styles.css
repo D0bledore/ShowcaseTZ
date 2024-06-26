@@ -1,3 +1,10 @@
-header h1 {
+/* Consistency across different browsers */
+* {
+    margin: 0;
+}
+
+/* Header */
+header {
     text-align: center;
+    background-color: lightblue;
 }
