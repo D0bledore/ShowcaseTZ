@@ -2,10 +2,16 @@
 * {
     margin: 0;
     padding: 0;
+    /* This padding makes the 'nav ul' list-items correctly align in the center */
 }
 
 /* Header */
 header {
     text-align: center;
     background-color: lightblue;
+}
+
+nav ul li { 
+    display: inline;
+    margin: auto 10px;
 }
