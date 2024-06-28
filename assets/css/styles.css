@@ -17,9 +17,12 @@ nav ul li {
     margin: auto 10px;
 }
 
+.inline {
+    display: inline-block;
+}
+
 /* Logo */
 #logo {
-    background-color: red;
     float: left;
     height: 100%;
     width: 100px;  /*width must equal header height */
