@@ -18,7 +18,7 @@ nav ul li {
 }
 
 /* Logo */
-header div {
+#logo {
     background-color: red;
     float: left;
     height: 100%;
