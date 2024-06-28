@@ -7,7 +7,7 @@
 
 /* Landing Page Headline */
 #headline {
-    position: fixed;
+    position: absolute;
     z-index: 1;
     top: 3%;
     left: 3%;
