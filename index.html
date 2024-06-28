@@ -17,6 +17,7 @@
             <h1>Showcase Tanzania</h1>
             <p>Enjoy a personal experience of Tanzania</p>
         </div>
+        <!-- Navigations -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -29,18 +30,17 @@
     </header>
     <!-- Main Content -->
     <main>
+        <!-- Contact Form -->
         <section id="contact">
             <h1>Contact the author:</h1>
-            <form method="POST" action="https://formdump.codeinstitute.net/">
+            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
                 <label for="name">Name: </label>
                 <input type="text" name="name" id="name">
                 <label for="email">Email: </label>
                 <input type="email" name="email" id="email">
-                <label for="message">Message: </label>
-                <input type="text" name="message" id="message">
-                <button>
-                    <input type="submit" name="submit" id="submit" value="Send">
-                </button>
+                <label for="textarea">Message: </label>
+                <textarea name="textarea" id="textarea"></textarea>
+                <input type="submit" name="submit" id="submit" value="Send">
             </form>
         </section>
     </main>
