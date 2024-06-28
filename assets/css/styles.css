@@ -33,6 +33,11 @@ nav ul li {
     top: 0;
 }
 
+/* Blog */
+#introduction {
+    text-align: center;
+}
+
 /* Contact Section */
 #contact {
     text-align: center;
