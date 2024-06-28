@@ -21,6 +21,10 @@ nav ul li {
     display: inline-block;
 }
 
+#beach-img {
+    width: 100%;
+}
+
 /* Logo */
 #logo {
     float: left;
