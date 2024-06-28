@@ -5,16 +5,12 @@
     /* This padding makes the 'nav ul' list-items correctly align in the center */
 }
 
-/* Header */
-header {
-    text-align: center;
-    background-color: lightblue;
-    height: 100px;
-}
-
+/* Navigations */
 nav {
     position: fixed;
     right: 0px;
+    top: 0px;
+    z-index: 1;
 }
 
 nav ul li {
@@ -28,6 +24,8 @@ nav ul li {
 
 #beach-img {
     width: 100%;
+    position: relative;
+    top: 0;
 }
 
 /* Logo */
