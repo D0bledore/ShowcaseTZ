@@ -21,13 +21,29 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <!-- Landing Page Image -->
-        <div>
             <img id="beach-img" src="assets/images/beach.jpg" alt="View of the beach of Bagamoyo">
     </header>
+    <!-- Main Content -->
+    <main>
+        <section id="contact">
+            <h1>Contact the author:</h1>
+            <form method="POST" action="https://formdump.codeinstitute.net/">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+                <label for="message">Message: </label>
+                <input type="text" name="message" id="message">
+                <button>
+                    <input type="submit" name="submit" id="submit" value="Send">
+                </button>
+            </form>
+        </section>
+    </main>
 </body>
 
 </html>
