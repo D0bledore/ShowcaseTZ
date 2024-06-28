@@ -2,7 +2,15 @@
 * {
     margin: 0;
     padding: 0;
-    /* This padding makes the 'nav ul' list-items correctly align in the center */
+}
+
+
+/* Landing Page Headline */
+#headline {
+    position: fixed;
+    z-index: 1;
+    top: 3%;
+    left: 3%;
 }
 
 /* Navigations */
@@ -18,19 +26,9 @@ nav ul li {
     margin: auto 10px;
 }
 
-.inline {
-    display: inline-block;
-}
-
+/* Landing Page Image */
 #beach-img {
     width: 100%;
     position: relative;
     top: 0;
-}
-
-/* Logo */
-#logo {
-    float: left;
-    height: 100%;
-    width: 100px;  /*width must equal header height */
 }
