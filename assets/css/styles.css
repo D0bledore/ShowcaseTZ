@@ -51,6 +51,9 @@ nav ul li a {
     width: 100%;
 }
 
+#blog iframe {
+    width: 100%;
+}
 
 /* Contact Section */
 #contact {
