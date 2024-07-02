@@ -31,45 +31,86 @@
     </header>
     <!-- Main Content -->
     <main>
-        <!-- Blog -->
-        <article id="blog">
-            <header>
-                <h1>Introduction</h1>
-            </header>
+        <!-- About -->
+        <section id="about">
             <p>My journey to Tanzania was nothing short of an adventure, offering a blend of rich history, vibrant
                 culture, and bustling city life. This blog post aims to encapsulate my experiences in Bagamoyo, a town
                 steeped in history, and Dar Es Salaam, the economic heart of Tanzania. As you explore this narrative,
                 you'll also find various elements that demonstrate my skills in HTML and CSS. From interactive forms to
                 dynamic tables and multimedia content, this homepage is designed to showcase both the beauty of Tanzania
                 and my technical proficiency.</p>
+        </section>
+
+        <!-- Blog -->
+        <article id="blog">
+            <header>
+                <h1>My Personal experience of Tanzania</h1>
+            </header>
+
+            <!-- Introduction -->
+            <section id="introduction">
+                <p>Prior to this trip, I had never been to Africa before. I come from the cold north, I was raised in
+                    Sweden. I am used to the cold weathers and a lot of snow. I lived in a country for more than 20
+                    years, where one half of the year is dark, and the other half of the year the sun is almost always
+                    up.</p>
+                <span>A typical morning in Sweden might look like this video here:</span>
+                <video width="320" height="240" controls>
+                    <source src="assets/videos/snow_day.mp4" type="video/mp4">
+                    Your browser does not support the HTML video tag.
+                </video>
+                <p>I recently moved to Austria on the southern mountainside of Salzburg, where my mother had recently
+                    moved. She lived in a small village with much tourism all year round. I very quickly got a job at
+                    newly opened restaurant looking for service staff.</p>
+                <figure>
+                    <img src="assets/images/mountain_restaurant.jpg" alt="A view of the mountains of Werfenweng">
+                    <figcaption>A view out of the restaurant on the mountains of the small village of Werfenweng
+                    </figcaption>
+                </figure>
+                <p>With the village located at 902 meters above sea level, the climate was in my experience not much
+                    different from Sweden, although, not as terribly icy cold. So, I was very much used to it, unlike my
+                    significant other: a woman I met at a voluntary theater group in Salzburg, called LaborX, which does
+                    fun theater acting activities every Monday. She had traveled to Austria to do her Masters in
+                    Theater, and this is where I met her. A couple of months into our relationship, it became an idea to
+                    go visit her home country together. On the 13th of April, it was take off!</p>
+            </section>
+
+            <!-- Section 1: Arrival in Tanzania -->
             <section id="arrival">
                 <h2>Arrival in Tanzania</h2>
+                <figure>
+                    <img src="assets/images/arrival_airport.jpg" alt="Arrival at Julius Nyerere International Airport">
+                    <figcaption>Arrival at Julius Nyerere International Airport</figcaption>
+                </figure>
                 <p>After a long flight, I finally touched down at Julius Nyerere International Airport. The air was
-                    filled
-                    with a unique blend of humidity and excitement. As I made my way through customs, the anticipation
-                    of
-                    exploring a new country kept my spirits high. My first stop was Bagamoyo, a town with a name that
-                    translates to "Lay Down Your Heart," reflecting its historical significance as a trading port during
-                    the
-                    19th century.</p>
+                    filled with a unique blend of humidity and excitement. As I made my way through customs, the
+                    anticipation of exploring a new country kept my spirits high. My first stop was Bagamoyo, a town
+                    with a name that translates to "Lay Down Your Heart," reflecting its historical significance as a
+                    trading port during the 19th century.</p>
             </section>
 
-            <!-- <p>Bagamoyo, once the capital of German East Africa, is now a sleepy town with remnants of its historical
-                past.</p> -->
+            <!-- Facts about Bagamoyo -->
+            <aside id="bagamoyo">
+                <h2>Interesting Facts About Bagamoyo</h2>
+                <p>Bagamoyo, once the capital of German East Africa, is now a sleepy town with remnants of its
+                    historical past. It was a major port and commercial center, especially during the slave trade era.
+                    The town is also known for its role in the spread of Christianity in East Africa, with the
+                    establishment of several missions.</p>
+            </aside>
 
-            <!-- Contact Form -->
-            <section id="contact">
-                <h1>Contact the author:</h1>
-                <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
-                    <label for="name">Name: </label>
-                    <input type="text" name="name" id="name">
-                    <label for="email">Email: </label>
-                    <input type="email" name="email" id="email">
-                    <label for="textarea">Message: </label>
-                    <textarea name="textarea" id="textarea"></textarea>
-                    <input type="submit" name="submit" id="submit" value="Send">
-                </form>
-            </section>
+        </article>
+        <!-- Contact Form -->
+        <section id="contact">
+            <h1>Contact the author:</h1>
+            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
+                <label for="name">Name: </label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email">
+                <label for="textarea">Message: </label>
+                <textarea name="textarea" id="textarea"></textarea>
+                <input type="submit" name="submit" id="submit" value="Send">
+            </form>
+        </section>
     </main>
 </body>
 
