@@ -20,12 +20,17 @@ nav {
     right: 0px;
     top: 0px;
     z-index: 1;
+    background-color: #000;
     /* font-size: xx-large; */
 }
 
 nav ul li {
     display: inline;
     margin: auto 10px;
+}
+
+nav ul li a {
+    color: #fff;
 }
 
 /* Landing Page Image */
@@ -45,6 +50,7 @@ nav ul li {
 #blog img {
     width: 100%;
 }
+
 
 /* Contact Section */
 #contact {
