@@ -1,7 +1,6 @@
 /* Consistency across different browsers */
 * {
     margin: 0;
-    padding: 0;
 }
 
 
@@ -40,13 +39,7 @@ nav ul li a {
     top: 0;
 }
 
-/* Main content */
-
 /* Blog */
-#blog {
-    text-align: center;
-}
-
 #blog img {
     width: 100%;
 }
