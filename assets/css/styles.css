@@ -35,9 +35,15 @@ nav ul li {
     top: 0;
 }
 
+/* Main content */
+
 /* Blog */
 #blog {
     text-align: center;
+}
+
+#blog img {
+    width: 100%;
 }
 
 /* Contact Section */
