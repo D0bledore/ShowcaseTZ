@@ -3,14 +3,19 @@
     margin: 0;
 }
 
-
-/* Landing Page Headline */
+/* Landing Page */
 #headline {
     position: absolute;
     z-index: 1;
     top: 3%;
     left: 3%;
     /* font-size: xx-large; */
+}
+
+#beach-img {
+    width: 100%;
+    position: relative;
+    top: 0;
 }
 
 /* Navigations */
@@ -32,20 +37,34 @@ nav ul li a {
     color: #fff;
 }
 
-/* Landing Page Image */
-#beach-img {
-    width: 100%;
-    position: relative;
-    top: 0;
+/* Blog */
+#blog {
+    margin: 7vh;
 }
 
-/* Blog */
+#blog section, table, figure {
+    padding: 5% 0;
+}
+
+#blog p {
+    text-align: justify;
+}
+
+#blog figcaption, h1, h2 {
+    text-align: center;
+
+}
+
 #blog img {
     width: 100%;
 }
 
 #blog iframe {
     width: 100%;
+}
+
+#blog table, td {
+    border: 1px solid #000;
 }
 
 /* Contact Section */
