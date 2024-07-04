@@ -20,8 +20,8 @@
         <!-- Navigations -->
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#blog">Read</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#blog">Read</a></li>
                 <li><a href="#">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -44,7 +44,7 @@
         <!-- Blog -->
         <article id="blog">
             <header>
-                <h1>My Personal experience of Tanzania</h1>
+                <h2>My Personal experience of Tanzania</h2>
             </header>
 
             <!-- Introduction -->
@@ -54,7 +54,7 @@
                     years, where one half of the year is dark, and the other half of the year the sun is almost always
                     up.</p>
                 <figure>
-                    <video width="100%" controls>
+                    <video controls>
                         <source src="assets/videos/snow_day.mp4" type="video/mp4">
                         Your browser does not support the HTML video tag.
                     </video>
@@ -111,7 +111,7 @@
                     Salaam remains the largest city and main economic hub. The official languages are Swahili and
                     English, and the currency is the Tanzanian shilling (TZS).</p>
                 <figure class="container">
-                    <img src="assets/images/150px-TZSn01000v.jpg" alt="1000 Tanzania Shilling Front">
+                    <img src="assets/images/1000_shilling.jpg" alt="1000 Tanzania Shilling Front">
                     <figcaption>The first President of Tanzania, Julius Nyerere, was known by his Swahili name 'Mwalimu'
                         or 'Teacher' due to his profession before entering politics, a title also featured on this
                         Tanzanian
@@ -140,7 +140,7 @@
                 </ol>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63345.25525913273!2d38.88105834205641!3d-6.443481882041909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x18425ffcfedf6b45%3A0x3f4d061a9e33b407!2sBagamoyo%2C%20Tanzania!5e0!3m2!1sen!2sus!4v1687436829866!5m2!1sen!2sus"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
@@ -186,13 +186,12 @@
                         everything being around 1,000 to 2,000 Tanzanian Shillings per item. When I was in Tanzania, I
                         felt like a millionaire!</p>
                     <figure>
-                        <video width="100%" controls>
+                        <video controls>
                             <source src="assets/videos/millionair.mp4" type="video/mp4">
                             Your browser does not support the HTML video tag.
                         </video>
                         <figcaption>In the video, you can see two million Tanzanian Shillings.</figcaption>
                     </figure>
-                    <aside>
                         <h3>Let's talk about money.</h3>
                         <table>
                             <caption>Currency Conversion</caption>
@@ -261,7 +260,7 @@
                     Mercury, was born on the beautiful island of Zanzibar, right here in Tanzania. And yes, I did drink
                     from a coconut:</p>
                 <figure>
-                    <img src="assets/images/coconut_drink.PNG" alt="Me drinking from a coconut">
+                    <img src="assets/images/coconut_drink.png" alt="Me drinking from a coconut">
                     <figcaption>On the beach of Bagamoyo drinking from a coconut</figcaption>
                 </figure>
                 <span>Thank you for reading this blog!</span>
@@ -269,15 +268,15 @@
 
         <!-- Contact Form -->
         <section id="contact">
-            <h1>Contact the author:</h1>
+            <h2>Contact the author:</h2>
             <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
                 <label for="name">Name: </label>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required>
                 <label for="email">Email: </label>
-                <input type="email" name="email" id="email">
+                <input type="email" name="email" id="email" required>
                 <label for="textarea">Message: </label>
-                <textarea name="textarea" id="textarea"></textarea>
-                <input type="submit" name="submit" id="submit" value="Send">
+                <textarea name="message" id="textarea" required></textarea>
+                <input type="submit" id="submit" value="Send">
             </form>
         </section>
     </main>

@@ -39,10 +39,10 @@ nav ul li a {
 
 /* Blog */
 #blog {
-    margin: 7vh;
+    margin: 5%;
 }
 
-#blog section, table, figure {
+#blog section, #blog table, #blog figure {
     padding: 5% 0;
 }
 
@@ -50,7 +50,7 @@ nav ul li a {
     text-align: justify;
 }
 
-#blog figcaption, h1, h2 {
+#blog figcaption, h1, #blog h2 {
     text-align: center;
 
 }
@@ -61,6 +61,17 @@ nav ul li a {
 
 #blog iframe {
     width: 100%;
+    width: 600;
+    height: 450;
+    border: 0;
+}
+
+#blog figure {
+    text-align: center;
+}
+
+#blog video {
+    height: 50vh;
 }
 
 #blog table, td {
