@@ -1,16 +1,38 @@
 /* Consistency across different browsers */
 * {
     margin: 0;
-    padding: 0; /* this is required to align nav items to center ! */
+    padding: 0;
+    /* this is required to align nav items to center ! */
 }
 
 /* Landing Page */
+header {
+    background-image: url("../images/beach.jpg");
+    background-size: contain;
+    height: 75vw;
+    position: relative;
+}
+
 #headline {
     position: absolute;
-    z-index: 1;
-    top: 3%;
-    left: 3%;
-    /* font-size: xx-large; */
+    transform: translateY(55vw);
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#headline em.orange {
+    color: orange;
+}
+
+#headline em.greenyellow {
+    color: greenyellow;
 }
 
 #beach-img {
@@ -59,7 +81,9 @@ nav ul li a:hover {
     margin: 5%;
 }
 
-#blog section, #blog table, #blog figure {
+#blog section,
+#blog table,
+#blog figure {
     padding: 5% 0;
 }
 
@@ -67,7 +91,8 @@ nav ul li a:hover {
     text-align: justify;
 }
 
-#blog figcaption, h1, #blog h2 {
+#blog figcaption,
+#blog h2 {
     text-align: center;
 
 }
@@ -91,7 +116,8 @@ nav ul li a:hover {
     height: 50vh;
 }
 
-#blog table, td {
+#blog table,
+td {
     border: 1px solid #000;
 }
 
