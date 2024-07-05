@@ -27,18 +27,22 @@ header {
     border-radius: 1rem;
 }
 
+.flag {
+    /* Credit: https://codepen.io/thebabydino/details/zvKxeL */
+    width: 100vmin;
+    height: 60vmin;
+    background:
+        linear-gradient(to right bottom,
+            #1eb53a 38%, #fcd116 0, #fcd116 42%, #000 0,
+            #000 58%, #fcd116 0, #fcd116 62%, #00a3dd 0);
+}
+
 #headline em.orange {
     color: orange;
 }
 
 #headline em.greenyellow {
     color: greenyellow;
-}
-
-#beach-img {
-    width: 100%;
-    position: relative;
-    top: 0;
 }
 
 /* Navigations */
