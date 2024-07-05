@@ -1,7 +1,7 @@
 /* Consistency across different browsers */
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; /* this is required to align nav items to center ! */
 }
 
 /* Landing Page */
@@ -22,20 +22,36 @@
 /* Navigations */
 nav {
     position: fixed;
-    right: 0px;
-    top: 0px;
+    width: 100%;
     z-index: 1;
+    background-color: rgba(0, 0, 0, 0.66);
+    height: 32px;
+    text-align: center;
+}
+    
+nav:hover {
     background-color: #000;
+}
+
+nav ul {
+    padding: 5px;
 }
 
 nav ul li {
     display: inline;
-    margin: auto 10px;
+    margin: auto 3%;
 }
 
 nav ul li a {
     color: #fff;
+    text-decoration: none;
 }
+
+nav ul li a:hover {
+    font-size: large;
+    color: turquoise;
+}
+
 
 /* Blog */
 #blog {
