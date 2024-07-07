@@ -4,8 +4,8 @@
 /* Consistency across different browsers */
 * {
     margin: 0;
-    padding: 0;
-    /* this is required to align nav items to center ! */
+    /* padding: 0; */
+    /* I'm commenting this padding, because it breaks my ordered and unordered list indicators */
 }
 
 body {
@@ -70,8 +70,10 @@ header {
     right: 0;
     font-size: 11px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     width: 80%;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 /* Media Queries to adjust #headline */
