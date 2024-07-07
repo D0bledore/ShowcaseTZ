@@ -1,8 +1,15 @@
+/* Google Font: "Lora" */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 /* Consistency across different browsers */
 * {
     margin: 0;
     padding: 0;
     /* this is required to align nav items to center ! */
+}
+
+body {
+    font-family: "Lora", serif;
 }
 
 /* Landing Page */
@@ -46,13 +53,25 @@ header {
     margin: 0 auto;
     border-radius: 1rem;
     /* Adjust width/height to contain flag excatly behind #headline  */
-    width: 182.7px;
-    height: 60.9px;
+    width: 179px;
+    height: 61px;
     /* Pure CSS flag credit: https://codepen.io/thebabydino/details/zvKxeL */
     background:
         linear-gradient(to right bottom,
             #1eb53a 38%, #fcd116 0, #fcd116 42%, #000 0,
             #000 58%, #fcd116 0, #fcd116 62%, #00a3dd 0);
+}
+
+#caption {
+    position: absolute;
+    bottom: 3%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-size: 11px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
 }
 
 /* Media Queries to adjust #headline */
