@@ -19,7 +19,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 2%;
+    top: 4%;
     margin: 0 auto;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.4);
@@ -27,35 +27,32 @@ header {
     padding: 1rem;
     border-radius: 1rem;
     z-index: 1;
-    /* Adjust respectfully of screen size */
-    font-size: x-small;
+    font-size: 7px;
 }
 
-.flag {
+#headline h1 em {
+    color: yellow;
+}
+
+#headline p {
+    text-transform: full-width;
+}
+
+#background-flag {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 2%;
+    top: 4%;
     margin: 0 auto;
     border-radius: 1rem;
-    /* Adjust to position flag excatly behind #headline  */
-    /* width: 77.32vmin;
-    height: 21.5vmin; */
-    width: 246.7px;
-    height: 68.9px;
-    /* Credit: https://codepen.io/thebabydino/details/zvKxeL */
+    /* Adjust width/height to contain flag excatly behind #headline  */
+    width: 182.7px;
+    height: 60.9px;
+    /* Pure CSS flag credit: https://codepen.io/thebabydino/details/zvKxeL */
     background:
         linear-gradient(to right bottom,
             #1eb53a 38%, #fcd116 0, #fcd116 42%, #000 0,
             #000 58%, #fcd116 0, #fcd116 62%, #00a3dd 0);
-}
-
-#headline em.orange {
-    color: orange;
-}
-
-#headline em.greenyellow {
-    color: #adff2f;
 }
 
 /* Media Queries to adjust #headline */
@@ -79,6 +76,7 @@ nav {
     height: 32px;
     text-align: center;
     transition: all 0.2s ease-in-out;
+    bottom: 0;
 }
 
 nav:hover {
