@@ -117,7 +117,6 @@ header {
     display: flex;
     flex-direction: column;
     /* gap: 1rem;
-    justify-content: center; */
     /* position: absolute; */
     /* top: 59%;
     left: 0;
@@ -125,8 +124,7 @@ header {
     margin: 0 auto; */
     color: white;
     background-color: rgba(0, 0, 0, 0.75);
-    /* width: 80%;
-    border-radius: 1rem; */
+    
     padding: 6px;
     /* font-size: 8px;  */  
 }
@@ -149,7 +147,7 @@ header {
 }
 
 /* Media Queries for Landing Page */
-@media (min-width: 800px) {
+@media (min-width: 705px) {
     #headline {
         font-size: xx-large;
     }
@@ -161,6 +159,15 @@ header {
 
     #caption {
         font-size: x-large;
+    }
+    #about {
+        display: block;
+    }
+    #about ol {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        gap: 2rem;
     }
 }
 
