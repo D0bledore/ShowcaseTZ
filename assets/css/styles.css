@@ -60,7 +60,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    top: 4%;
+    top: 6%;
     margin: 0 auto;
     color: whitesmoke;
     background-color: rgba(0, 0, 0, 0.4);
@@ -84,7 +84,7 @@ header {
     position: absolute;
     left: 0;
     right: 0;
-    top: 4%;
+    top: 6%;
     margin: 0 auto;
     border-radius: 1rem;
     /* Adjust width/height to contain flag excatly behind #headline  */
@@ -103,13 +103,29 @@ header {
     margin: 0 auto;
     left: 0;
     right: 0;
-    font-size: 11px;
+    font-size: 10px;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     width: fit-content;
     border-radius: 1rem;
     padding: 1rem;
     text-align: center;
+}
+
+#scroll-hint {
+    position: absolute;
+    bottom: 40%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-size: 2rem;
+    color: white;  
+    background-color: rgba(0, 0, 0, .75);
+    width: fit-content;
+    border: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
 }
 
 /* About Section/Table of Contents */
@@ -129,7 +145,7 @@ header {
     left: 0;
     right: 0;
     margin: 0 auto;
-    bottom: 35%;
+    bottom: 35.5%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 1rem;
@@ -159,7 +175,7 @@ header {
 }
 
 /* Media Queries for Landing Page */
-@media (max-width: 999px) {
+@media (max-width: 1115px) {
 
     /* Toggle Funtionality */
 
@@ -198,9 +214,9 @@ header {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1116px) {
     #caption {
-        bottom: 70%;
+        bottom: 65%;
     }
 
     #about_1 ol {
@@ -227,15 +243,16 @@ header {
     nav {
         top: 0%;
         font-size: x-large;
-        height: 40px;
+        height: 41px;
     }
 
     nav ul li a:hover {
         font-size: x-large;
     }
-
-    #caption {
-        bottom: 70%;
+}
+@media (max-width: 1000px) {
+    #scroll-hint {
+        display: none;
     }
 }
 
