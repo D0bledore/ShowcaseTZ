@@ -118,8 +118,8 @@ header {
     margin: 0 auto;
     left: 0;
     right: 0;
-    font-size: 2rem;
-    color: white;  
+    font-size: 1.5rem;
+    color: white;
     background-color: rgba(0, 0, 0, .75);
     width: fit-content;
     border: 1rem;
@@ -145,7 +145,7 @@ header {
     left: 0;
     right: 0;
     margin: 0 auto;
-    bottom: 35.5%;
+    top: 35.5%;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     padding: 1rem;
@@ -190,7 +190,7 @@ header {
 
 @media (min-width: 705px) {
     #headline {
-        font-size: xx-large;
+        font-size: 2rem;
     }
 
     #background-flag {
@@ -215,21 +215,36 @@ header {
 }
 
 @media (min-width: 1116px) {
+
+    #headline {
+        font-size: 3rem;
+    }
+
+    #background-flag {
+        width: 1041px;
+        height: 226px;
+    }
+
     #caption {
         bottom: 65%;
+        font-size: 2rem;
     }
 
     #about_1 ol {
         position: absolute;
-        top: 65%;
+        top: 75%;
         left: 0;
         right: 0;
         margin: 0 auto;
         width: 65%;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.75);
         border-radius: 1rem;
         padding: 1rem;
         font-size: 1rem;
+    }
+
+    #about_1 span {
+        top: 68.5%;
     }
 
     #about_2 {
@@ -250,6 +265,7 @@ header {
         font-size: x-large;
     }
 }
+
 @media (max-width: 1000px) {
     #scroll-hint {
         display: none;
