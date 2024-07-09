@@ -244,7 +244,7 @@ header {
     }
 
     #about_1 span {
-        top: 68.5%;
+        top: -22.5%;
     }
 
     #about_2 {
@@ -313,8 +313,15 @@ header {
 }
 
 #blog table,
-td {
+#blog td, #blog th {
     border: 1px solid #000;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+#blog table caption {
+    border-top: 1px solid black;
+    padding: 1rem;
 }
 
 /* Contact Section */
