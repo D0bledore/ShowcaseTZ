@@ -42,11 +42,22 @@ The contact form enables users to reach out to the author with questions or comm
 
 ### Future Features
 
+- **Photo Gallery** 
+
+The photo gallery showcases stunning images of Tanzania's landscapes, wildlife, and cultural sites. This visual feature enhances the user's experience by providing a glimpse into the beauty of Tanzania.
 
 
-Dhow picture Wikipedia: 
-https://en.wikipedia.org/wiki/File:Dhow_znz.jpg
 
-Mount Kilimanjaro:
-https://commons.wikimedia.org/wiki/File:Mt._Kilimanjaro_12.2006.JPG
+## Image Attribution
 
+1. ![Name](assets/images/zanzibar_bird_view.jpg)
+- **Description:**  A bird's view of the stone city in Zanzibar.
+- **Photographer:** Prof. Chen Hualin
+- **Date:** 23 May 2015
+- **License:** This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.
+- **Source:**[Link to Original Image](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/A_bird%27s_view_of_the_stone_city_in_Zanzibar.jpg/800px-A_bird%27s_view_of_the_stone_city_in_Zanzibar.jpg?20150807220823)
+
+
+- [![Markdown Builder](https://img.shields.io/badge/Markdown_Builder-grey?logo=markdown&logoColor=000000)](https://tim.2bn.dev/markdown-builder) used to generate README and TESTING templates.
+- [![Git](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
+- [![GitHub](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com) used for secure online code storage.
