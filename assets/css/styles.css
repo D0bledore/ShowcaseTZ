@@ -17,13 +17,11 @@ body {
 /* Navigations */
 nav {
     position: fixed;
-    width: 100%;
-    z-index: 1;
-    background-color: rgba(0, 0, 0, 0.66);
-    height: 32px;
-    text-align: center;
-    transition: all 0.2s ease-in-out;
     bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.66);
+    height: fit-content;
+    transition: all 0.2s ease-in-out;
 }
 
 nav:hover {
@@ -31,7 +29,7 @@ nav:hover {
 }
 
 nav ul {
-    padding: 5px;
+    padding: 0.5rem;
 }
 
 nav ul li {
@@ -45,8 +43,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    font-size: large;
-    text-decoration: underline;
+    font-size: larger;
     color: turquoise;
 }
 
@@ -55,21 +52,22 @@ header {
     background-image: url("../images/beach.jpg");
     background-size: cover;
     height: 100vh;
+    text-align: center;
+    overflow: hidden;
 }
 
-#headline {
-    position: relative;
+#logo {
     color: #fff;
     text-align: center;
+    margin: 6% auto;
+    border: 1px solid black;
 }
 
-#headline h1 em {
+#logo h1 em {
     color: yellow;
 }
 
 .background-flag {
-    position: absolute;
-    top: 6%;
     margin: 0 auto;
     border-radius: 1rem;
     padding: 1rem;
@@ -82,38 +80,26 @@ header {
             #000 58%, #6b5909 0, #b59710 62%, #006185 0);
 }
 
-#caption {
-    position: absolute;
-    bottom: 4%;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    font-size: 10px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    width: fit-content;
+#cta {
+    background-color: blue;
+    padding: 0.5rem;
     border-radius: 1rem;
     padding: 1rem;
-    text-align: center;
+    margin-top: 30%;
 }
 
-#scroll-hint {
-    position: absolute;
-    bottom: 40%;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    font-size: 1.5rem;
+#cta a {
+    text-decoration: none;
     color: white;
-    background-color: rgba(0, 0, 0, .75);
-    width: fit-content;
-    border: 1rem;
-    padding: 1rem;
-    text-align: center;
-    border-radius: 1rem;
 }
 
-/* About Section/Table of Contents */
+#cta a:hover {
+    font-size: larger;
+}
+
+
+
+/* About Section/Table of Contents
 #about_1 ol,
 #about_2 {
     display: flex;
@@ -157,12 +143,35 @@ header {
 #about_1 ol div ul li,
 #about_2 ol div ul li {
     padding: 5px;
+} */
+
+/* @media Queries for Tablets */
+@media (min-width: 768px) {
+    #logo {
+        font-size: 2em;
+        padding: 1em;
+    }
+
+    #cta {
+        margin-top: 0%;
+    }
 }
 
-/* Media Queries for Landing Page */
-@media (max-width: 1115px) {
+/* @media Queries beyond Tablets */
+@media (min-width: 1024px) {
+    #logo {
+        font-size: 2.5em;
+        padding: 1em;
+    }
+    nav {
+        top: 0;
+        font-size: 1.5em;
+    }
+}
 
-    /* Toggle Funtionality */
+/* @media (max-width: 1115px) {
+
+Toggle Funtionality
 
     #about_1 ol {
         display: none;
@@ -255,7 +264,7 @@ header {
     #scroll-hint {
         display: none;
     }
-}
+} */
 
 /* #Blog & #Blog Sections */
 #blog {
@@ -298,7 +307,8 @@ header {
 }
 
 #blog table,
-#blog td, #blog th {
+#blog td,
+#blog th {
     border: 1px solid #000;
     margin: 1rem auto;
     padding: 1rem;
