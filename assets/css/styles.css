@@ -53,9 +53,8 @@ nav ul li a:hover {
 /* Landing Page */
 header {
     background-image: url("../images/beach.jpg");
-    background-size: contain;
-    height: 75vw;
-    position: relative;
+    background-size: cover;
+    height: 100vh;
 }
 
 #headline {
