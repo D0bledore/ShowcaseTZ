@@ -1,11 +1,13 @@
 /* Google Font: "Lora" */
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Consistency across different browsers */
 * {
     margin: 0;
-    /* padding: 0; */
-    /* I'm commenting this padding, because it breaks my ordered and unordered list indicators */
 }
 
 body {
