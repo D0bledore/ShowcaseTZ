@@ -58,18 +58,8 @@ header {
 }
 
 #headline {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 6%;
-    margin: 0 auto;
-    color: whitesmoke;
-    background-color: rgba(0, 0, 0, 0.4);
-    width: fit-content;
-    padding: 1rem;
-    border-radius: 1rem;
-    z-index: 1;
-    font-size: 10px;
+    position: relative;
+    color: #fff;
     text-align: center;
 }
 
@@ -77,25 +67,19 @@ header {
     color: yellow;
 }
 
-#headline p {
-    text-transform: full-width;
-}
-
-#background-flag {
+.background-flag {
     position: absolute;
-    left: 0;
-    right: 0;
     top: 6%;
     margin: 0 auto;
     border-radius: 1rem;
+    padding: 1rem;
     /* Adjust width/height to contain flag excatly behind #headline  */
-    width: 241px;
-    height: 73px;
+    width: 50%;
     /* Pure CSS flag credit: https://codepen.io/thebabydino/details/zvKxeL */
     background:
         linear-gradient(to right bottom,
-            #1eb53a 38%, #fcd116 0, #fcd116 42%, #000 0,
-            #000 58%, #fcd116 0, #fcd116 62%, #00a3dd 0);
+            #18922f 38%, #b59710 0, #b59710 42%, #000 0,
+            #000 58%, #6b5909 0, #b59710 62%, #006185 0);
 }
 
 #caption {
