@@ -162,16 +162,16 @@ figure {
     bottom: 5%;
     background-color: rgba(255, 255, 255, 0.75);
     width: 100%;
+    padding: 0.5rem 0;
+}
+
+#blog h2 {
+    text-align: center;
+    padding: 1rem;
 }
 
 #blog p {
     text-align: justify;
-}
-
-#blog figcaption,
-#blog h2 {
-    text-align: center;
-
 }
 
 #blog img {
@@ -189,15 +189,15 @@ figure {
     height: 50vh;
 }
 
-#blog table,
-#blog td,
-#blog th {
+#currency-table,
+td,
+th {
     border: 1px solid #000;
     margin: 1rem auto;
     padding: 1rem;
 }
 
-#blog table caption {
+#currency-table caption {
     border-top: 1px solid black;
     padding: 1rem;
 }
