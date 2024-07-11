@@ -22,6 +22,7 @@ nav {
     background-color: rgba(0, 0, 0, 0.66);
     height: fit-content;
     transition: all 0.2s ease-in-out;
+    z-index: 100;
 }
 
 nav:hover {
@@ -97,7 +98,7 @@ header {
     font-size: larger;
 }
 
-
+/* About */
 
 /* About Section/Table of Contents
 #about_1 ol,
@@ -145,11 +146,84 @@ header {
     padding: 5px;
 } */
 
-/* @media Queries for Tablets */
+/* Main Content */
+
+main {
+    margin: auto 3%;
+}
+
+figure {
+    position: relative;
+    text-align: center;
+}
+
+.text-inside {
+    position: absolute;
+    bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+}
+
+#blog p {
+    text-align: justify;
+}
+
+#blog figcaption,
+#blog h2 {
+    text-align: center;
+
+}
+
+#blog img {
+    width: 100%;
+}
+
+#blog iframe {
+    width: 100%;
+    width: 600;
+    height: 450;
+    border: 0;
+}
+
+#blog video {
+    height: 50vh;
+}
+
+#blog table,
+#blog td,
+#blog th {
+    border: 1px solid #000;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+#blog table caption {
+    border-top: 1px solid black;
+    padding: 1rem;
+}
+
+/* Contact Section */
+#contact {
+    text-align: center;
+}
+
+#contact-form {
+    display: grid;
+    justify-content: center;
+}
+
+
+/* Media Queries */
+
+/* @media queries for tablets */
 @media (min-width: 768px) {
     #logo {
         font-size: 2em;
         padding: 1em;
+    }
+
+    main {
+        margin: auto 30%;
     }
 
     #cta {
@@ -157,12 +231,13 @@ header {
     }
 }
 
-/* @media Queries beyond Tablets */
+/* @media queries beyond tablets */
 @media (min-width: 1024px) {
     #logo {
         font-size: 2.5em;
         padding: 1em;
     }
+
     nav {
         top: 0;
         font-size: 1.5em;
@@ -265,66 +340,3 @@ Toggle Funtionality
         display: none;
     }
 } */
-
-/* #Blog & #Blog Sections */
-#blog {
-    margin: 5%;
-}
-
-#blog section,
-#blog table,
-#blog figure {
-    padding: 5% 0;
-}
-
-#blog p {
-    text-align: justify;
-}
-
-#blog figcaption,
-#blog h2 {
-    text-align: center;
-
-}
-
-#blog img {
-    width: 100%;
-}
-
-#blog iframe {
-    width: 100%;
-    width: 600;
-    height: 450;
-    border: 0;
-}
-
-#blog figure {
-    text-align: center;
-}
-
-#blog video {
-    height: 50vh;
-}
-
-#blog table,
-#blog td,
-#blog th {
-    border: 1px solid #000;
-    margin: 1rem auto;
-    padding: 1rem;
-}
-
-#blog table caption {
-    border-top: 1px solid black;
-    padding: 1rem;
-}
-
-/* Contact Section */
-#contact {
-    text-align: center;
-}
-
-#contact-form {
-    display: grid;
-    justify-content: center;
-}
