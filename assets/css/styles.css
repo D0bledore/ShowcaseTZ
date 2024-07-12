@@ -143,6 +143,10 @@ header {
     scroll-margin-top: 1rem;
 }
 
+.scroll {
+    scroll-margin-top: 1rem;
+}
+
 #blog h2,
 #blog h3 {
     text-align: center;
@@ -166,7 +170,7 @@ figure figcaption {
 
 .media {
     max-width: 90%;
-    max-height: 75vh;
+    max-height: 50vh;
     border: 0.5rem solid black;
 }
 
@@ -227,6 +231,10 @@ th {
     #cta {
         margin-top: 0%;
     }
+
+    #blog {
+        margin: 0 15%;
+    }
 }
 
 /* @media queries beyond tablets */
@@ -235,6 +243,19 @@ th {
         font-size: 2.5em;
         padding: 1em;
     }
+
+    main {
+        font-size: 1.5rem;
+    }
+
+    nav {
+        font-size: 1.5rem;
+    }
+
+        #about {
+            margin: 0 25%;
+            margin-bottom: 3rem;
+        }
 }
 
 /* @media (max-width: 1115px) {
