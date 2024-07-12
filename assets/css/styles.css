@@ -44,7 +44,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    font-size: larger;
     color: turquoise;
 }
 
@@ -109,8 +108,8 @@ header {
 
 #about h2 {
     text-align: center;
-    padding: 1rem;
-    margin: 1rem;
+    padding: 1rem 0;
+    margin: 1rem 0;
     background-color: khaki;
     border-radius: 1rem;
 }
@@ -144,18 +143,6 @@ header {
     scroll-margin-top: 1rem;
 }
 
-#feature-image {
-    position: relative;
-}
-
-.text-inside {
-    position: absolute;
-    bottom: 5%;
-    background-color: rgba(255, 255, 255, 0.75);
-    width: 100%;
-    padding: 0.5rem 0;
-}
-
 #blog h2,
 #blog h3 {
     text-align: center;
@@ -168,18 +155,32 @@ header {
 }
 
 /* Blog Media */
-#blog figure {
+figure {
     text-align: center;
     margin-bottom: 1rem;
 }
 
 figure figcaption {
-    margin: 1rem 0;
+    padding: 1rem 1rem;
 }
 
-#blog img {
-    max-width: 100%;
+.media {
+    max-width: 90%;
     max-height: 75vh;
+    border: 0.5rem solid black;
+}
+
+.feature-image {
+    position: relative;
+}
+
+.text-inside {
+    position: absolute;
+    bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 100%;
+    padding: 0.5rem 0;
+    text-align: center;
 }
 
 #blog iframe {
@@ -189,18 +190,12 @@ figure figcaption {
     border: 0;
 }
 
-#blog video {
-    height: 50vh;
-    text-align: center;
-}
-
 /* Table */
 #currency-table,
 td,
 th {
     border: 1px solid #000;
     margin: 1rem auto;
-    padding: 1rem;
 }
 
 #currency-table caption {
@@ -227,10 +222,6 @@ th {
     #logo {
         font-size: 2em;
         padding: 1em;
-    }
-
-    main {
-        margin: auto 25%;
     }
 
     #cta {
