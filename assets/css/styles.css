@@ -61,7 +61,7 @@ header {
     color: #fff;
     text-align: center;
     margin: 6% auto;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 #logo h1 em {
@@ -98,58 +98,40 @@ header {
     font-size: larger;
 }
 
-/* About */
-
-/* About Section/Table of Contents
-#about_1 ol,
-#about_2 {
-    display: flex;
-    justify-content: space-evenly;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.75);
-    padding: 6px;
-}
-
-#about_1 span {
-    font-style: italic;
-    position: absolute;
-    width: 65%;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    top: 35.5%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 1rem;
-    border-radius: 1rem;
-    text-align: center;
-    font-size: x-large;
-}
-
-#about_2 span {
-    text-decoration: underline;
-    font-style: italic;
-}
-
-#about_1 ol div li,
-#about_2 ol div li {
-    padding: 5px;
-}
-
-#about_1 ol div ul,
-#about_2 ol div ul {
-    padding: 5px;
-}
-
-#about_1 ol div ul li,
-#about_2 ol div ul li {
-    padding: 5px;
-} */
-
 /* Main Content */
 
 main {
     margin: auto 3%;
+}
+
+/* About */
+
+#about {
+    scroll-margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#about h2 {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: khaki;
+    border-radius: 1rem;
+}
+
+#about ol {
+    background-color: khaki;
+    border-radius: 1rem;
+    padding: 2em 4em;
+}
+
+#about ol li {
+    padding: 5px;
+    list-style-type: upper-roman;
+}
+
+#about ol ul li {
+    list-style-type: square;
 }
 
 figure {
@@ -205,6 +187,7 @@ th {
 /* Contact Section */
 #contact {
     text-align: center;
+    margin: 3rem 0;
 }
 
 #contact-form {
@@ -223,7 +206,7 @@ th {
     }
 
     main {
-        margin: auto 30%;
+        margin: auto 25%;
     }
 
     #cta {
@@ -236,11 +219,6 @@ th {
     #logo {
         font-size: 2.5em;
         padding: 1em;
-    }
-
-    nav {
-        top: 0;
-        font-size: 1.5em;
     }
 }
 
