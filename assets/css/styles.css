@@ -59,8 +59,10 @@ header {
 #logo {
     color: #fff;
     text-align: center;
-    margin: 6% auto;
+    margin: 25% auto;
     border: 2px solid black;
+    max-width: 80%;
+    width: fit-content;
 }
 
 #logo h1 em {
@@ -85,7 +87,6 @@ header {
     padding: 0.5rem;
     border-radius: 1rem;
     padding: 1rem;
-    margin-top: 30%;
 }
 
 #cta a {
@@ -101,12 +102,32 @@ header {
 
 /* About */
 #about {
+    background-color: rgba(255, 180, 0, .25);
+    margin: 40% 3%;
+    padding: 1rem;
+    scroll-margin-top: 7.5rem;
+}
+
+#about * {
+    padding: 1rem;
+}
+
+#about h2,
+#about h3 {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+
+
+/* index */
+#index {
     scroll-margin-top: 1rem;
     margin: 3%;
     margin-bottom: 3rem;
 }
 
-#about h2 {
+#index h2 {
     text-align: center;
     padding: 1rem 0;
     margin: 1rem 0;
@@ -114,27 +135,27 @@ header {
     border-radius: 1rem;
 }
 
-#about ol {
+#index ol {
     background-color: khaki;
     border-radius: 1rem;
     padding: 2em 4em;
 }
 
-#about ol li {
+#index ol li {
     padding: 5px;
     list-style-type: upper-roman;
 }
 
-#about ol ul li {
+#index ol ul li {
     list-style-type: square;
 }
 
-#about a {
+#index a {
     text-decoration: none;
     color: #000;
 }
 
-#about a:hover {
+#index a:hover {
     color: blue;
 }
 
@@ -158,10 +179,22 @@ header {
     margin: 1rem;
 }
 
+#blog a {
+    text-decoration: none;
+}
+
+#blog a:hover {
+    text-decoration: underline;
+}
+
+#blog a:visited {
+    color: #000;
+}
+
 /* Blog Media */
 figure {
     text-align: center;
-    margin-bottom: 1rem;
+    margin: 1rem 0;
 }
 
 figure figcaption {
@@ -170,7 +203,7 @@ figure figcaption {
 
 .media {
     max-width: 90%;
-    max-height: 50vh;
+    max-height: 75vh;
     border: 0.5rem solid black;
 }
 
@@ -187,11 +220,16 @@ figure figcaption {
     text-align: center;
 }
 
-#blog iframe {
-    width: 100%;
-    width: 600;
-    height: 450;
-    border: 0;
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-media {
+    max-height: 45vh;
+    max-width: 90%;
+    border: 0.5rem solid white;
 }
 
 /* Table */
@@ -218,30 +256,41 @@ th {
     justify-content: center;
 }
 
-
 /* Media Queries */
 
 /* @media queries for tablets */
 @media (min-width: 768px) {
-    #logo {
-        font-size: 2em;
-        padding: 1em;
-    }
-
-    #cta {
-        margin-top: 0%;
-    }
-
     #blog {
         margin: 0 15%;
+    }
+
+    #logo {
+        font-size: 2rem;
+        padding: 1rem;
+        margin: 5% auto;
+    }
+
+    #about {
+        margin: 45% 3%;
+        scroll-margin-top: 10.5rem;
+        font-size: 1.5rem;
     }
 }
 
 /* @media queries beyond tablets */
 @media (min-width: 1024px) {
     #logo {
-        font-size: 2.5em;
-        padding: 1em;
+        font-size: 3rem;
+        padding: 1rem;
+    }
+
+    #cta {
+        margin-top: 10%;
+    }
+
+    #about {
+        margin: 20%;
+        scroll-margin-top: 9.5rem;
     }
 
     main {
@@ -252,105 +301,8 @@ th {
         font-size: 1.5rem;
     }
 
-        #about {
-            margin: 0 25%;
-            margin-bottom: 3rem;
-        }
-}
-
-/* @media (max-width: 1115px) {
-
-Toggle Funtionality
-
-    #about_1 ol {
-        display: none;
-    }
-
-    #about_1 span {
-        display: none;
+    #index {
+        margin: 0 25%;
+        margin-bottom: 3rem;
     }
 }
-
-@media (min-width: 705px) {
-    #headline {
-        font-size: 2rem;
-    }
-
-    #background-flag {
-        width: 704px;
-        height: 161px;
-    }
-
-    #caption {
-        font-size: x-large;
-    }
-
-    #about_2 {
-        display: block;
-    }
-
-    #about_2 ol {
-        display: flex;
-        justify-content: space-evenly;
-        width: 65%;
-        gap: 2rem;
-    }
-}
-
-@media (min-width: 1116px) {
-
-    #headline {
-        font-size: 3rem;
-    }
-
-    #background-flag {
-        width: 1041px;
-        height: 226px;
-    }
-
-    #caption {
-        bottom: 65%;
-        font-size: 2rem;
-    }
-
-    #about_1 ol {
-        position: absolute;
-        top: 75%;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        width: 65%;
-        background-color: rgba(0, 0, 0, 0.75);
-        border-radius: 1rem;
-        padding: 1rem;
-        font-size: 1rem;
-    }
-
-    #about_1 span {
-        top: -22.5%;
-    }
-
-    #about_2 {
-        display: none !important;
-    }
-
-    #about_2 span {
-        display: none;
-    }
-
-    nav {
-        top: 0%;
-        font-size: x-large;
-        height: 41px;
-    }
-
-    nav ul li a:hover {
-        font-size: x-large;
-    }
-}
-
-@media (max-width: 1000px) {
-    #scroll-hint {
-        display: none;
-    }
-} */
