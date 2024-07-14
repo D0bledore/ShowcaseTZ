@@ -261,6 +261,10 @@ th {
 
 /* @media queries for tablets */
 @media (min-width: 768px) {
+    nav {
+        font-size: 1.5rem;
+    }
+
     #logo {
         font-size: 2rem;
     }
@@ -281,10 +285,6 @@ th {
 
 /* @media queries beyond tablets */
 @media (min-width: 1024px) {
-    nav {
-        font-size: 1.5rem;
-    }   
-
     #logo {
         font-size: 4rem;
     }
