@@ -60,10 +60,11 @@ header {
 #logo {
     color: #fff;
     text-align: center;
-    margin: 25% auto;
-    border: 2px solid black;
+    margin: 5% auto;
+    border: 0.5rem solid black;
     max-width: 80%;
     width: fit-content;
+    font-size: 1.5rem;
 }
 
 #logo h1 em {
@@ -85,9 +86,8 @@ header {
 
 #cta {
     background-color: blue;
-    padding: 0.5rem;
-    border-radius: 1rem;
     padding: 1rem;
+    border-radius: 0.5rem;
 }
 
 #cta a {
@@ -261,45 +261,37 @@ th {
 
 /* @media queries for tablets */
 @media (min-width: 768px) {
-    #blog {
-        margin: 0 15%;
-    }
-
     #logo {
         font-size: 2rem;
-        padding: 1rem;
-        margin: 5% auto;
     }
 
     #about {
         margin: 45% 3%;
         scroll-margin-top: 10.5rem;
-        font-size: 1.5rem;
-    }
-}
-
-/* @media queries beyond tablets */
-@media (min-width: 1024px) {
-    #logo {
-        font-size: 3rem;
-        padding: 1rem;
-    }
-
-    #cta {
-        margin-top: 10%;
-    }
-
-    #about {
-        margin: 20%;
-        scroll-margin-top: 9.5rem;
     }
 
     main {
         font-size: 1.5rem;
     }
 
+    #blog {
+        margin: 0 15%;
+    }
+}
+
+/* @media queries beyond tablets */
+@media (min-width: 1024px) {
     nav {
         font-size: 1.5rem;
+    }   
+
+    #logo {
+        font-size: 4rem;
+    }
+
+    #about {
+        margin: 20%;
+        scroll-margin-top: 9.5rem;
     }
 
     #index {
