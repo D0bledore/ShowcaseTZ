@@ -248,7 +248,7 @@ th {
 
 /* Contact Section */
 #contact {
-    margin: 0 auto 10vh auto;
+    margin-bottom: 8vh;
     text-align: center;
 }
 
@@ -256,14 +256,21 @@ th {
     padding: 0.5rem;
 }
 
+#contact textarea {
+    width: 263px;
+    height: 400px;
+}
+
+#submit {
+    margin-top: 4vh;
+    height: 50px;
+    width: 150px;
+}
+
 /* Media Queries */
 
 /* @media queries for tablets */
 @media (min-width: 768px) {
-    nav, #contact, #contact  {
-        font-size: 1.5rem;
-    }
-
     #logo {
         font-size: 2rem;
     }
@@ -279,6 +286,24 @@ th {
 
     #blog {
         margin: 0 15%;
+    }
+
+    nav,
+    #contact,
+    input[type="text"],
+    input[type="email"],
+    textarea,
+    #submit {
+        font-size: 1.5rem;
+    }
+
+    #contact {
+        margin-bottom: 12vh;
+    }
+
+    #contact textarea {
+        width: 386px;
+        height: 560px;
     }
 }
 
@@ -296,5 +321,14 @@ th {
     #index {
         margin: 0 25%;
         margin-bottom: 3rem;
+    }
+
+    #contact {
+        margin-bottom: 8vh;
+    }
+
+    #contact textarea {
+        height: 449px;
+        width: 1160px;
     }
 }
