@@ -305,6 +305,8 @@ th {
     }
 
     nav,
+    #contact input,
+    #contact textarea,
     #copyright {
         font-size: 1.5rem;
     }
