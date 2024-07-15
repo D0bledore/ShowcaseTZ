@@ -268,6 +268,12 @@ th {
     width: 150px;
 }
 
+#contact input,
+#contact textarea {
+    border-radius: 3px;
+}
+
+
 /* Footer */
 #copyright {
     background-color: #000;
