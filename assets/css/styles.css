@@ -259,6 +259,7 @@ th {
 #contact textarea {
     width: 263px;
     height: 400px;
+    max-width: 80%;
 }
 
 #submit {
