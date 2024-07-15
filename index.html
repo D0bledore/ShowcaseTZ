@@ -363,7 +363,8 @@
             <!--Chapter 4: Summary -->
             <figure id="summary" class="feature-image scroll">
                 <figcaption class="text-inside">Summary</figcaption>
-                <img class="media" src="assets/images/man_sleeping.jpg" alt="A man in a hat sleeping while sitting outside a store in Dar Es Salaam.">
+                <img class="media" src="assets/images/man_sleeping.jpg"
+                    alt="A man in a hat sleeping while sitting outside a store in Dar Es Salaam.">
             </figure>
 
             <!-- Why Visit Tanzania? -->
@@ -387,9 +388,10 @@
                     have become foreigners to. If you feel like that, and you'd like to break free: Tanzania is there
                     for
                     you. A good place to learn to become human again, if you ask me. Really!</p>
-                    <hr>
+                <hr>
                 <figure class="feature-image">
-                    <img class="media" src="assets/images/coconut_drink.png" alt="A picture of me at the beach drinking from a coconut">
+                    <img class="media" src="assets/images/coconut_drink.png"
+                        alt="A picture of me at the beach drinking from a coconut">
                     <figcaption class="text-inside">Thank you for reading my blog!</figcaption>
                 </figure>
                 <hr>
@@ -402,17 +404,26 @@
     <!-- Footer & Contact Form -->
     <footer>
         <section id="contact">
-        <h2>Contact the author:</h2>
-        <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
-            <label for="name">Name: </label>
-            <input type="text" name="name" id="name" required>
-            <label for="email">Email: </label>
-            <input type="email" name="email" id="email" required>
-            <label for="textarea">Message: </label>
-            <textarea name="message" id="textarea" required></textarea>
-            <input type="submit" id="submit" value="Send">
-        </form>
-    </section>
+            <div>
+                <h2>Contact the author:</h2>
+                <p>Please fill out the form below.<br>Fields marked with * are required.</p>
+            </div>
+            <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net/">
+                <div>
+                    <label for="name"><em>*Name: </em></label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>
+                    <label for="email"><em>*Email: </em></label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="textarea"><em>*Message: </em></label>
+                    <textarea name="message" id="textarea" required></textarea>
+                </div>
+                <input type="submit" id="submit" value="Send">
+            </form>
+        </section>
     </footer>
 </body>
 

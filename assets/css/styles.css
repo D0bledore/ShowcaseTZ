@@ -248,20 +248,19 @@ th {
 
 /* Contact Section */
 #contact {
+    margin: 0 auto 10vh auto;
     text-align: center;
-    margin: 3rem 0;
 }
 
-#contact-form {
-    display: grid;
-    justify-content: center;
+#contact div {
+    padding: 0.5rem;
 }
 
 /* Media Queries */
 
 /* @media queries for tablets */
 @media (min-width: 768px) {
-    nav {
+    nav, #contact, #contact  {
         font-size: 1.5rem;
     }
 
