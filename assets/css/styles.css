@@ -84,18 +84,34 @@ header {
             #000 58%, #6b5909 0, #b59710 62%, #006185 0);
 }
 
+/* Buttons */
+#buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
 #cta {
     background-color: blue;
     padding: 1rem;
     border-radius: 0.5rem;
 }
 
-#cta a {
+
+#translate-button {
+    background-color: green;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#cta a,
+#translate-button a {
     text-decoration: none;
     color: white;
 }
 
-#cta a:hover {
+#cta a:hover,
+#translate-button a:hover  {
     font-size: larger;
 }
 
