@@ -270,11 +270,12 @@ th {
 
 #contact div {
     padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 #contact textarea {
-    width: 263px;
-    height: 400px;
+    height: 50vh;
     max-width: 80%;
 }
 
@@ -287,6 +288,11 @@ th {
 #contact input,
 #contact textarea {
     border-radius: 3px;
+    width: 60vw;
+}
+
+#contact input[type="submit"] {
+    width: 100px;
 }
 
 
@@ -330,11 +336,6 @@ th {
     #contact {
         margin-bottom: 12vh;
     }
-
-    #contact textarea {
-        width: 386px;
-        height: 560px;
-    }
 }
 
 /* @media queries beyond tablets */
@@ -355,10 +356,5 @@ th {
 
     #contact {
         margin-bottom: 8vh;
-    }
-
-    #contact textarea {
-        height: 449px;
-        width: 1160px;
     }
 }
