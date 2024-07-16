@@ -97,7 +97,6 @@ header {
     border-radius: 0.5rem;
 }
 
-
 #translate-button {
     background-color: green;
     padding: 1rem;
@@ -111,7 +110,7 @@ header {
 }
 
 #cta a:hover,
-#translate-button a:hover  {
+#translate-button a:hover {
     font-size: larger;
 }
 
