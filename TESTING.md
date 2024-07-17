@@ -44,6 +44,30 @@ If applicable, mention how user feedback has been taken into account and impleme
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 
+As I ran throught the HTML validator I am suprised to see that I was not following many of the standards, but I will forgive myself. I am not yet an expert but after all: never quitting and always improving makes an expert. 
+
+As you can see from this screenshot here:
+
+![screenshot](documentation/validation/index_live.png) 
+
+The first point was that the a element must not be nested inside a button element. Luckily, I did have to through away all of my code (jokes), instead, I removed the button element and styled the individual a elements to look like buttons instead. It worked well without losing much style but at the same time improving semantics and accessibility. 
+I tested that the buttons on both pages work as intended. 
+
+
+
+
+Here you may compare the results: 
+
+| Issue | Before | After | Notes |
+| --- | --- | --- | --- |
+| Button | ![screenshot](documentation/validation/before_after/before_button.png) | ![screenshot](documentation/validation/before_after/after_button.png) | Improved semantics and accessibility|
+| --- | --- | --- | --- |
+| --- | --- | --- | --- |
+| --- | --- | --- | --- |
+| --- | --- | --- | --- |
+| --- | --- | --- | --- |
+
+
 
 
 ## Code Validation
