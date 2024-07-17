@@ -57,14 +57,27 @@ The second point was that the the list structure was incorrect. Suprsingly, it w
 
 The third point was that a p element was inside a table element. That is not correct as it cannot be a start-tag of table. So I moved it outside of table, above it. The changes cannot be seen or are very hard to notice and demonstrate, because it the browser (firefox) that I am using is pushing the p element outside of the table element in any case, whatsoever. 
 
+For my second round of validating: 
 
-Here you may compare the results: 
+![screenshot](documentation/validation/index_live_2nd.png) 
+
+The most obvious point, that textarea should not include a type attribute... that makes sense is cool to know, that textarea expects a type of text per default. 
+
+For the second point, I have to add headline (h) elements to improve for accessibility. I added those those, which the validator expected to see for accessibility purposed and you may see them in the comparisson table further down. 
+
+After this he was satisfied with my code: 
+
+![screenshot](documentation/validation/HTML/validation_complete.png)
+![screenshot](documentation/validation/HTML/)
+
+
+Here you may compare the visual results: 
 
 | Issue | Before | After | Notes |
 | --- | --- | --- | --- |
-| Button | ![screenshot](documentation/validation/before_after/before_button.png) | ![screenshot](documentation/validation/before_after/after_button.png) | Improved semantics and accessibility|
-| --- | --- | --- | --- |
-| --- | --- | --- | --- |
+| Nested <a> inside <button> | ![screenshot](documentation/validation/before_after/before_button.png) | ![screenshot](documentation/validation/before_after/after_button.png) | Improved semantics and accessibility|
+| Missing headlines | ![screenshot](documentation/validation/before_after/article_before.png) | ![screenshot](documentation/validation/before_after/article_after.png) | Improved Accessibility |
+| Missing headlines | ![screenshot](documentation/validation/before_after/copyright_before.png) | ![screenshot](documentation/validation/before_after/copyright_after.png) | Improved Accessibility |
 | --- | --- | --- | --- |
 | --- | --- | --- | --- |
 | --- | --- | --- | --- |
