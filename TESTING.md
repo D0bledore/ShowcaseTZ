@@ -68,8 +68,17 @@ For the second point, I have to add headline (h) elements to improve for accessi
 After this he was satisfied with my code: 
 
 ![screenshot](documentation/validation/HTML/validation_complete.png)
-![screenshot](documentation/validation/HTML/)
 
+
+I have been doing adjusting to the Swahili version alongside the corrections of the index.html every time, but now for the acutal validation, as well: 
+
+![screenshot](documentation/validation/HTML/validating_swahili.png)
+
+Apart from a p element that had gone lost, I also have to change the attribute in the html element responsible for the language, this is for the browser to know which language the document is written in. The correct setting needs to be lang="sw" for swahili, as the validator points out. 
+
+This was all very helpful and increased my knowledge in HTML. 
+And successful:
+![screenshot](documentation/validation/HTML/validation_swahili_complete.png)
 
 Here you may compare the visual results: 
 
