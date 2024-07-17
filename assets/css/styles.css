@@ -61,10 +61,8 @@ header {
 
 #logo {
     color: #fff;
-    text-align: center;
     margin: 5% auto;
-    border: 0.5rem solid black;
-    max-width: 80%;
+    max-width: 88%;
     width: fit-content;
     font-size: 1.5rem;
 }
@@ -74,11 +72,8 @@ header {
 }
 
 .background-flag {
-    margin: 0 auto;
     border-radius: 1rem;
     padding: 1rem;
-    /* Adjust width/height to contain flag excatly behind #headline  */
-    width: 50%;
     /* Pure CSS flag credit: https://codepen.io/thebabydino/details/zvKxeL */
     background:
         linear-gradient(to right bottom,
@@ -317,6 +312,10 @@ figure figcaption {
         font-size: 2rem;
     }
 
+    .background-flag {
+        padding: 2rem;
+    }
+
     #about {
         scroll-margin-top: 10.5rem;
     }
@@ -338,7 +337,6 @@ figure figcaption {
 @media (min-width: 1024px) {
     #logo {
         font-size: 3rem;
-        padding: 2rem;
     }
 
     #about {
