@@ -37,6 +37,7 @@ nav ul {
 nav ul li {
     list-style-type: none;
     border: 1px solid #fff;
+    border-radius: 35%;
     padding: 3px;
 }
 
