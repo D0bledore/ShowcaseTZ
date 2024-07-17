@@ -77,8 +77,8 @@ header {
     /* Pure CSS flag credit: https://codepen.io/thebabydino/details/zvKxeL */
     background:
         linear-gradient(to right bottom,
-            #18922f 38%, #b59710 0, #b59710 42%, #000 0,
-            #000 58%, #6b5909 0, #b59710 62%, #006185 0);
+            #10631f 38%, #8d750b 0, #8d750b 42%, #000 0,
+            #000 58%, #6b5909 0, #8d750b 62%, #006185 0);
 }
 
 /* Buttons */
