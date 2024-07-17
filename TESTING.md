@@ -53,7 +53,9 @@ As you can see from this screenshot here:
 The first point was that the a element must not be nested inside a button element. Luckily, I did have to through away all of my code (jokes), instead, I removed the button element and styled the individual a elements to look like buttons instead. It worked well without losing much style but at the same time improving semantics and accessibility. 
 I tested that the buttons on both pages work as intended. 
 
+The second point was that the the list structure was incorrect. Suprsingly, it works, but the HTML Standard was not being followed in this regards. But to fix the list-structure issue, all I had to was to wrap ul inside li item instead of ul being a child of ol. Now its a child of li, which is the correct way, the funtionality and the looks of the index section seem not to have changed. 
 
+The third point was that a p element was inside a table element. That is not correct as it cannot be a start-tag of table. So I moved it outside of table, above it. The changes cannot be seen or are very hard to notice and demonstrate, because it the browser (firefox) that I am using is pushing the p element outside of the table element in any case, whatsoever. 
 
 
 Here you may compare the results: 
