@@ -11,8 +11,14 @@ html {
     padding: 0;
 }
 
+
+/* General rules */
 body {
     font-family: "Lora", serif;
+}
+
+.scroll {
+    scroll-margin-top: 1rem;
 }
 
 /* Navigations */
@@ -172,24 +178,22 @@ header {
     color: blue;
 }
 
-/* Start of Blog */
-#blog {
-    scroll-margin-top: 1rem;
-}
-
-.scroll {
-    scroll-margin-top: 1rem;
-}
-
+/* Text Structure Styles*/
 #blog h2,
-#blog h3 {
+#blog h3, 
+#contact h2 {
     text-align: center;
     padding: 1rem;
 }
 
-#blog p {
+#blog p, #contact p {
     text-align: justify;
     margin: 1rem;
+}
+
+/* Blog */
+#blog {
+    scroll-margin-top: 1rem;
 }
 
 #blog a {
@@ -198,10 +202,6 @@ header {
 
 #blog a:hover {
     text-decoration: underline;
-}
-
-#blog a:visited {
-    color: #000;
 }
 
 /* Blog Media */
