@@ -22,6 +22,138 @@ This blog aims to bridge cultures, fostering understanding and appreciation for 
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://d0bledore.github.io/ShowcaseTZ)
 
 
+## UX
+
+In this section, you will briefly explain your design processes.
+
+### Colour Scheme
+
+Explain your colours and the colour scheme.
+
+Example: 
+
+
+- `#000000` used for primary text.
+- `#E84610` used for primary highlights.
+- `#4A4A4F` used for secondary text.
+- `#009FE3` used for secondary highlights.
+
+Consider adding a link and screenshot for your colour scheme using "coolors".
+https://coolors.co/generate
+
+
+When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
+
+Example:
+I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
+![screenshot](documentation/coolors.png)
+
+### Typography
+
+Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
+
+Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
+
+Example: 
+- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
+
+- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+
+- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+
+## User Stories
+
+In this section, list all of your user stories for the project.
+
+### New Site Users
+
+- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to ____________, so that I can ____________.
+- As a new site user, I would like to ____________, so that I can ____________.
+
+### Returning Site Users
+
+- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to ____________, so that I can ____________.
+- As a returning site user, I would like to ____________, so that I can ____________.
+
+
+## Wireframes
+
+To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
+I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+
+### Mobile Wireframes
+
+< details >
+< summary > Click here to see the Mobile Wireframes < / summary >
+
+Home
+  - ![screenshot](documentation/wireframes/mobile-home.png)
+
+About
+  - ![screenshot](documentation/wireframes/mobile-about.png)
+
+Contact
+  - ![screenshot](documentation/wireframes/mobile-contact.png)
+
+Gallery
+  - ![screenshot](documentation/wireframes/mobile-gallery.png)
+
+etc.
+  - repeat for any remaining mobile wireframes
+
+< / details >
+
+### Tablet Wireframes
+
+< details >
+< summary > Click here to see the Tablet Wireframes < / summary >
+
+Home
+  - ![screenshot](documentation/wireframes/tablet-home.png)
+
+About
+  - ![screenshot](documentation/wireframes/tablet-about.png)
+
+Contact
+  - ![screenshot](documentation/wireframes/tablet-contact.png)
+
+Gallery
+  - ![screenshot](documentation/wireframes/tablet-gallery.png)
+
+etc.
+  - repeat for any remaining tablet wireframes
+
+< / details >
+
+### Desktop Wireframes
+
+< details >
+< summary > Click here to see the Desktop Wireframes < / summary >
+
+Home
+  - ![screenshot](documentation/wireframes/desktop-home.png)
+
+About
+  - ![screenshot](documentation/wireframes/desktop-about.png)
+
+Contact
+  - ![screenshot](documentation/wireframes/desktop-contact.png)
+
+Gallery
+  - ![screenshot](documentation/wireframes/desktop-gallery.png)
+
+etc.
+  - repeat for any remaining desktop wireframes
+
+< / details >
+
+
 ## Features
 
 ### Navigation
@@ -128,7 +260,19 @@ This feature enhances user engagement by providing a straightforward way for rea
 ![screenshot](documentation/features/video_example.png)
 
 
+### Future Features
+
+Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+
+- YOUR-TITLE-FOR-FUTURE-FEATURE-#1
+    - Any additional notes about this feature.
+
 ## Tools & Technologies Used
+
+In this section, you should explain the various tools and technologies used to develop the project.
+Make sure to put a link (where applicable) to the source, and explain what each was used for.
+Some examples have been provided, but this is just a sample only, your project might've used others.
+Feel free to delete any unused items below as necessary.
 
 - [![Markdown Builder](https://img.shields.io/badge/Markdown_Builder-grey?logo=markdown&logoColor=000000)](https://tim.2bn.dev/markdown-builder) used to generate README and TESTING templates.
 - [![Git](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
@@ -137,7 +281,15 @@ This feature enhances user engagement by providing a straightforward way for rea
 - [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [![CSS](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site.
-- [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help write and correct text content. 
+- [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help write and translate text content. 
+- [Perplexity Ai](https://www.perplexity.ai/) used to help write, translate text content and troubleshoot code after validation. 
+
+
+## Testing
+
+> [!NOTE]  
+> For all testing, please refer to the [TESTING.md](TESTING.md) file.
+
 
 ## Deployment
 
@@ -182,28 +334,17 @@ You can fork this repository by using the following steps:
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. Once clicked, you should now have a copy of the original repository in your own GitHub account!
 
+
+### Local VS Deployment
+
+Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
+
+
 ## Credits
 
-### Image Attribution
-
-All images were taken by me, except for these three, which are Public Domain: 
-
-![Name](assets/images/1000_shilling.jpg)
-- **Description:** 1000 Tanzania Shilling Front.
-- **Date:** 2 July 2017, 10:07:15
-- **License:** This file is made available under the [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
-- **Source:** [Link to Original Image](https://upload.wikimedia.org/wikipedia/commons/5/55/TZSn01000v.jpg)
- 
-![Name](assets/images/map_tz.jpg)
-- **Description:** Map of Tanzania
-- **License:** CIA Factbook images and photos — obtained from a variety of sources — are in the public domain and are copyright free.
-- **Source:** [Link to Original Image](https://www.cia.gov/the-world-factbook/about/archives/2021/static/e7a4b1bee67e722e085a8fa65d4ea15c/90944/TZ-map.jpg)
-
-**Used for Favicons** 
-![Name](assets/favicons/android-chrome-512x512.png)
-- **Description:** Flag of Tanzania
-- **License:** This work is ineligible for copyright and therefore in the public domain because it consists entirely of information that is common property and contains no original authorship. 
-- **Source:** [Link to Original Image](https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tanzania.svg)
+In this section you need to reference where you got your content, media, and extra help from.
+It is common practice to use code from other repositories and tutorials,
+however, it is important to be very specific about these sources to avoid plagiarism.
 
 
 ### Content
@@ -217,3 +358,21 @@ All images were taken by me, except for these three, which are Public Domain:
         linear-gradient(to right bottom,
             #1eb53a 38%, #fcd116 0, #fcd116 42%, #000 0,
             #000 58%, #fcd116 0, #fcd116 62%, #00a3dd 0);
+
+### Image Attribution
+
+All images were taken by me, except for these three, which are Public Domain: 
+
+| Source | Location | Type | Notes |
+| --- | --- | --- | --- |
+| [CIA Factbook](https://www.cia.gov/the-world-factbook/about/archives/2021/static/e7a4b1bee67e722e085a8fa65d4ea15c/90944/TZ-map.jpg) | about Tanzania | image | map of Tanzania |
+| [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/5/55/TZSn01000v.jpg) | about Tanzania | image | 1000 Tanzania Shilling Front |
+| [Wikipedia](https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tanzania.svg) | entire site | image | favicon on both pages |
+
+
+### Acknowledgements
+
+Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
+A few examples have been provided below to give you some ideas.
+
+- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
