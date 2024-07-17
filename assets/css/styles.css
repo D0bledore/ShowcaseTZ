@@ -181,12 +181,12 @@ header {
 /* Text Structure Styles*/
 #blog h2,
 #blog h3, 
-#contact h2 {
+#feedback h2 {
     text-align: center;
     padding: 1rem;
 }
 
-#blog p, #contact p {
+#blog p, #feedback p {
     text-align: justify;
     margin: 1rem;
 }
@@ -261,19 +261,19 @@ figure figcaption {
     padding: 1rem;
 }
 
-/* Contact Section */
-#contact {
+/* Feedback Form */
+#feedback {
     text-align: center;
     margin-bottom: 4vh;
 }
 
-#contact div {
+#feedback div {
     padding: 0.5rem;
     display: flex;
     justify-content: space-between;
 }
 
-#contact textarea {
+#feedback textarea {
     height: 50vh;
     max-width: 80%;
 }
@@ -284,13 +284,13 @@ figure figcaption {
     width: 150px;
 }
 
-#contact input,
-#contact textarea {
+#feedback input,
+#feedback textarea {
     border-radius: 3px;
     width: 50vw;
 }
 
-#contact input[type="submit"] {
+#feedback input[type="submit"] {
     width: 100px;
 }
 
@@ -326,8 +326,8 @@ figure figcaption {
     }
 
     nav,
-    #contact input,
-    #contact textarea,
+    #feedback input,
+    #feedback textarea,
     #copyright {
         font-size: 1.5rem;
     }
@@ -347,7 +347,7 @@ figure figcaption {
         margin-bottom: 3rem;
     }
 
-    #contact {
+    #feedback {
         margin-bottom: 8vh;
     }
 }
