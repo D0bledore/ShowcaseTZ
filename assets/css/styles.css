@@ -337,7 +337,8 @@ figure figcaption {
 /* @media queries beyond tablets */
 @media (min-width: 1024px) {
     #logo {
-        font-size: 4rem;
+        font-size: 3rem;
+        padding: 2rem;
     }
 
     #about {

@@ -5,11 +5,16 @@
 [![GitHub repo size](https://img.shields.io/github/repo-size/D0bledore/ShowcaseTZ)](https://github.com/D0bledore/ShowcaseTZ)
 
 
-Showcase Tanzania is my personal travel experience in this East African nation. Unlike a typical tourist visit, I was invited to visit the family of my partner, a woman born and raised in Tanzania. Join me on my journey from Sweden to Austria and then to Tanzania, reflecting on my personal growth along the way. This is a true story, a travel blog of my life.
+## Showcase Tanzania: A Personal Journey
+This blog chronicles my unique experience in Tanzania, offering an intimate look at East African life through the eyes of a Swedish traveler invited into a local family. Unlike typical tourist accounts, this narrative provides a blend of personal observations and cultural insights. Key Features:
 
-The blog aims to inform potential travelers about the attractions and experiences awaiting them in Tanzania. It provides an engaging and informative narrative, including factual information about Tanzania’s history and economy.
+1. Firsthand experiences in Bagamoyo and Dar es Salaam
+2. Insights into Tanzanian history, from its colonial past to present day
+3. Practical travel tips, including visa processes and local transportation
+4. Cultural observations comparing European and African lifestyles
+5. Personal anecdotes about family interactions and daily life in Tanzania
 
-By detailing my experiences and observations, particularly the cultural differences and similarities between Europe and Africa, this project helps to promote a deeper understanding and appreciation of Tanzanian culture.
+Discover Tanzania's rich culture, from historic coastal towns to bustling urban centers. Learn about local customs, cuisine, and the warmth of Tanzanian hospitality. This blog aims to bridge cultures, fostering understanding and appreciation for Tanzania's heritage while providing valuable information for potential travelers. Whether you're planning an African adventure or simply curious about life in Tanzania, this blog offers a balanced perspective on the country's beauty, challenges, and potential for personal growth. Join me on this transformative journey and explore why Tanzania is not just a destination, but an experience that can broaden your horizons.
 
 
 ![screenshot](documentation/mockup.png)
