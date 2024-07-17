@@ -24,14 +24,79 @@ source: [amiresponsive](https://ui.dev/amiresponsive?url=https://d0bledore.githu
 
 ## Features
 
-### Existing Features
+### Navigation
 
-- **Interactive Map of Bagamoyo**
+The website features a user-friendly navigation bar fixed at the bottom of the screen, providing easy access to key sections:
 
-This feature provides users with a dynamic map of Bagamoyo, allowing them to explore the town's layout and significant landmarks. This is particularly beneficial for potential travelers who want to familiarize themselves with the area before visiting.
+- **Home**: The main landing page
+- **About**: Serves as a personal foreword to the blog and the blog's role as a project
+- **Index**: A comprehensive list of content that also serves as a navigation tool. Each list item is clickable, allowing users to easily jump to specific sections within the blog.
+- **Contact**: A contact form to submit inquiries
 
-- **Travel Blog** 
+This fixed-bottom navigation ensures that users can quickly move between sections of the site without needing to scroll, enhancing the overall user experience on both desktop and mobile devices.
 
+![screenshot](documentation/features/navigation.png)
+
+
+### Landing Page
+
+The landing page features two prominent buttons that enhance user engagement and accessibility:
+
+1. **Language Toggle Button**
+
+Dynamically changes based on the current language:
+
+- Labeled "Toleo la Kiswahili" (Swahili Version) on the English site
+- Changes to "English Version" on the Swahili site
+ 
+Links to the alternate language version of the site:
+- English to Swahili (swahili.html)
+- Swahili to English (index.html)
+
+Provides language accessibility, catering to both international and local (Tanzanian) audiences.
+
+
+2. **Call to Action (CTA) Button**
+- Prominently displays "READ MY BLOG"
+- Directs users to the main blog content section
+- Encourages immediate engagement with the site's primary content
+
+![screenshot](documentation/features/landing_page.png)
+
+
+### Index Page
+
+The Index page serves as a dynamic content directory and navigation hub:
+
+- Offers a comprehensive, clickable list of all blog content
+- Functions as an interactive navigation tool, complementing the main navigation bar
+- Enables quick access to specific blog sections
+- Enhances site usability by providing an alternative way to explore content
+- Accessible from any page via the navigation bar, facilitating easy blog navigation
+
+This feature streamlines the user experience, allowing visitors to efficiently find and access desired content throughout the blog.
+
+![screenshot](documentation/features/index.png)
+
+
+### Contact Form 
+
+The website includes a user-friendly contact form that allows visitors to reach out to the author directly:
+
+- Requires essential information: Name, Email, and Message
+- Clearly marks required fields with asterisks (*)
+- Includes a textarea for detailed messages
+- Features a prominent "Send" button for submission
+- Utilizes form validation to ensure all required fields are filled
+- Submits data to a secure endpoint (https://formdump.codeinstitute.net/)
+- Accessible via the navigation bar, allowing easy contact from any page
+
+This feature enhances user engagement by providing a straightforward way for readers to communicate with the author, ask questions, or provide feedback about the blog content.
+
+
+
+
+///////////////////
 The travel blog narrates the author's personal experiences, providing engaging stories and valuable insights about Tanzania. It helps users gain a deeper understanding of the culture and lifestyle in Tanzania through a first-hand account.
 
 - **Currency Conversion Table**
@@ -40,16 +105,6 @@ This table allows users to see the value of Tanzanian Shillings in various curre
 
 ![screenshot](documentation/features/currency_conversion_table.png)
 
-
-- **Contact Form**
-
-The contact form enables users to reach out to the author with questions or comments. It provides an easy way for users to engage with the content creator and seek personalized advice or information.
-
-### Future Features
-
-- **Photo Gallery** 
-
-The photo gallery showcases stunning images of Tanzania's landscapes, wildlife, and cultural sites. This visual feature enhances the user's experience by providing a glimpse into the beauty of Tanzania.
 
 ## Tools & Technologies Used
 
