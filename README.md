@@ -95,7 +95,7 @@ This feature enhances user engagement by providing a straightforward way for rea
 
 ![screenshot](documentation/features/feedback.png)
 
-### Blog Features:
+### Blog Features
 
 1. **Firsthand Experiences in Bagamoyo and Dar es Salaam**
    - Reflection on Bagamoyo's historical significance
@@ -186,12 +186,24 @@ You can fork this repository by using the following steps:
 
 ### Image Attribution
 
-1. ![Name](assets/images/zanzibar_bird_view.jpg)
-- **Description:**  A bird's view of the stone city in Zanzibar.
-- **Photographer:** Prof. Chen Hualin
-- **Date:** 23 May 2015
-- **License:** This file is licensed under the Creative Commons Attribution-Share Alike 4.0 International license.
-- **Source:**[Link to Original Image](https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/A_bird%27s_view_of_the_stone_city_in_Zanzibar.jpg/800px-A_bird%27s_view_of_the_stone_city_in_Zanzibar.jpg?20150807220823)
+All images were taken by me, except for these three, which are Public Domain: 
+
+![Name](assets/images/1000_shilling.jpg)
+- **Description:** 1000 Tanzania Shilling Front.
+- **Date:** 2 July 2017, 10:07:15
+- **License:** This file is made available under the [Creative Commons CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/deed.en)
+- **Source:** [Link to Original Image](https://upload.wikimedia.org/wikipedia/commons/5/55/TZSn01000v.jpg)
+ 
+![Name](assets/images/map_tz.jpg)
+- **Description:** Map of Tanzania
+- **License:** CIA Factbook images and photos — obtained from a variety of sources — are in the public domain and are copyright free.
+- **Source:** [Link to Original Image](https://www.cia.gov/the-world-factbook/about/archives/2021/static/e7a4b1bee67e722e085a8fa65d4ea15c/90944/TZ-map.jpg)
+
+**Used for Favicons** 
+![Name](assets/favicons/android-chrome-512x512.png)
+- **Description:** Flag of Tanzania
+- **License:** This work is ineligible for copyright and therefore in the public domain because it consists entirely of information that is common property and contains no original authorship. 
+- **Source:** [Link to Original Image](https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tanzania.svg)
 
 
 ### Content
