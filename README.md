@@ -10,11 +10,11 @@ This blog chronicles my unique experience in Tanzania, offering an intimate look
 
 1. Firsthand experiences in Bagamoyo and Dar es Salaam
 2. Insights into Tanzanian history, from its colonial past to present day
-3. Practical travel tips, including visa processes and local transportation
+3. Insights into visa processes and local transportation
 4. Cultural observations comparing European and African lifestyles
 5. Personal anecdotes about family interactions and daily life in Tanzania
 
-Discover Tanzania's rich culture, from historic coastal towns to bustling urban centers. Learn about local customs, cuisine, and the warmth of Tanzanian hospitality. This blog aims to bridge cultures, fostering understanding and appreciation for Tanzania's heritage while providing valuable information for potential travelers. Whether you're planning an African adventure or simply curious about life in Tanzania, this blog offers a balanced perspective on the country's beauty, challenges, and potential for personal growth. Join me on this transformative journey and explore why Tanzania is not just a destination, but an experience that can broaden your horizons.
+This blog aims to bridge cultures, fostering understanding and appreciation for Tanzania's heritage while providing valuable information for potential travelers. Whether you're planning an African adventure or simply curious about life in Tanzania, this blog offers a balanced perspective on the country's beauty, challenges, and potential for personal growth. Join me on this transformative journey and explore why Tanzania is not just a destination, but an experience that can broaden your horizons.
 
 
 ![screenshot](documentation/mockup.png)
@@ -79,31 +79,53 @@ This feature streamlines the user experience, allowing visitors to efficiently f
 ![screenshot](documentation/features/index.png)
 
 
-### Contact Form 
+### Feedback Form
 
-The website includes a user-friendly contact form that allows visitors to reach out to the author directly:
+The website includes a user-friendly feedback form that allows visitors to share their thoughts directly with me:
 
-- Requires essential information: Name, Email, and Message
+- Requires essential information: Name, Email, and Feedback
 - Clearly marks required fields with asterisks (*)
-- Includes a textarea for detailed messages
+- Includes a textarea for detailed feedback
 - Features a prominent "Send" button for submission
 - Utilizes form validation to ensure all required fields are filled
 - Submits data to a secure endpoint (https://formdump.codeinstitute.net/)
-- Accessible via the navigation bar, allowing easy contact from any page
+- Accessible via the navigation bar, allowing easy feedback from any page
 
-This feature enhances user engagement by providing a straightforward way for readers to communicate with the author, ask questions, or provide feedback about the blog content.
+This feature enhances user engagement by providing a straightforward way for readers to share their thoughts, ask questions, or provide feedback about the blog content. It reflects the personal nature of the blog and encourages a direct connection between the readers and myself as the author.
 
+![screenshot](documentation/features/feedback.png)
 
+### Blog Features:
 
+1. **Firsthand Experiences in Bagamoyo and Dar es Salaam**
+   - Reflection on Bagamoyo's historical significance
+   - Impressions of Dar es Salaam
+   - Descriptions of the vibrant fish market in Bagamoyo
+   - Experience with local transportation, including "boda boda" motorcycle taxis
 
-///////////////////
-The travel blog narrates the author's personal experiences, providing engaging stories and valuable insights about Tanzania. It helps users gain a deeper understanding of the culture and lifestyle in Tanzania through a first-hand account.
+2. **Insights into Tanzanian History**
+   - Information about Bagamoyo's role in the slave trade and as the first capital of German East Africa
+   - Observations on the remnants of colonial architecture, such as the old German Boma
 
-- **Currency Conversion Table**
+3. **Practical Travel Tips**
+   - Details on the "visa on arrival" process
+   - Statistics into the economy and GDP of Tanzania for understanding local prices
+   - Currency conversion table
 
-This table allows users to see the value of Tanzanian Shillings in various currencies, helping travelers understand the cost of living and travel expenses in Tanzania.
+![screenshot](documentation/features/currency_conversion_table.png) 
 
-![screenshot](documentation/features/currency_conversion_table.png)
+4. **Cultural Observations**
+   - Reflections on the sense of community and welcoming attitude towards foreigners
+   - Comparisons of attitudes towards tourists in Tanzania versus Europe
+   - Personal anecdotes about family interactions and daily life in Tanzania
+
+5. **Multimedia Integration**
+   - Videos and images next to the text create a pleasant reading experience
+
+- **Examples:**
+
+![screenshot](documentation/features/intro.png)
+![screenshot](documentation/features/video_example.png)
 
 
 ## Tools & Technologies Used
