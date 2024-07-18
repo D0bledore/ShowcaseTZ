@@ -359,7 +359,7 @@ In this section I layout all the extra help I got.
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 
-|[CodePen User thebabydino](https://codepen.io/thebabydino/details/zvKxeL) | CSS Stylesheet 'background flag of Logo' |  ![screenshot](documentation/credits/background-flag.png)|
+|[CodePen User thebabydino](https://codepen.io/thebabydino/details/zvKxeL) | CSS Stylesheet 'background flag of Logo' |![screenshot](documentation/credits/background-flag.png)|
 |[W3Schools](https://www.w3schools.com/html/html5_video.asp) | index.html | tutorial on HTML Video tag |
 |[W3Schools](https://www.w3schools.com/css/css_background_image.asp)| styles.css | tutorial on CSS Background Image |
 |[W3Schools](https://www.w3schools.com/css/css_navbar.asp)| index.html & styles.css | tutorial on CSS Navigation Bar |
