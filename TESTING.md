@@ -3,109 +3,7 @@
 > [!NOTE]  
 > Return back to the [README.md](README.md) file.
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-In this section, you need to convince the assessors that you have conducted enough testing to legitimately believe that the site works well.
-Essentially, in this part, you should go over all of your project's features, and ensure that they all work as intended,
-with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Feature-by-Feature Testing:
-
-Go through each feature of your portfolio site and detail the testing process for each.
-
-Explain the functionality and demonstrate how it aligns with the intended purpose. This could include:
-
-- Navigation: Ensuring smooth transitions between pages, links directing to the correct destinations.
-- Responsive Design: Checking for compatibility across various devices and screen sizes.
-- Portfolio Display: Verifying that projects are properly showcased with accurate descriptions, images, and links.
-- Contact Form: Testing the form submission process, ensuring the user receives a confirmation, and you receive the message.
-
-User Experience Testing:
-
-- Usability Testing: Have users (or simulated users) interact with the site and provide feedback. Document any issues encountered and the resolutions implemented.
-- Accessibility Testing: Confirm compliance with accessibility standards (e.g., screen reader compatibility, proper alt text for images, keyboard navigation).
-
-Compatibility Testing:
-
-- Browser Compatibility: Testing on different browsers (Chrome, Firefox, Safari, Edge, etc.) to ensure consistent performance.
-- Device Compatibility: Ensuring functionality across various devices (desktops, laptops, tablets, and mobile phones).
-
-Regression Testing:
-
-After implementing fixes or updates, ensure that previous features and functionalities still work as intended. This prevents new changes from breaking existing features.
-
-Documentation and Logs:
-
-Maintain records of testing procedures, results, and any bugs encountered along with their resolutions. This helps demonstrate a systematic approach to testing and problem-solving.
-User Feedback Incorporation:
-
-If applicable, mention how user feedback has been taken into account and implemented to enhance the user experience.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
-
-
-As I ran throught the HTML validator I am suprised to see that I was not following many of the standards, but I will forgive myself. I am not yet an expert but after all: never quitting and always improving makes an expert. 
-
-As you can see from this screenshot here:
-
-![screenshot](documentation/validation/index_live.png) 
-
-The first point was that the a element must not be nested inside a button element. Luckily, I did have to through away all of my code (jokes), instead, I removed the button element and styled the individual a elements to look like buttons instead. It worked well without losing much style but at the same time improving semantics and accessibility. 
-I tested that the buttons on both pages work as intended. 
-
-The second point was that the the list structure was incorrect. Suprsingly, it works, but the HTML Standard was not being followed in this regards. But to fix the list-structure issue, all I had to was to wrap ul inside li item instead of ul being a child of ol. Now its a child of li, which is the correct way, the funtionality and the looks of the index section seem not to have changed. 
-
-The third point was that a p element was inside a table element. That is not correct as it cannot be a start-tag of table. So I moved it outside of table, above it. The changes cannot be seen or are very hard to notice and demonstrate, because it the browser (firefox) that I am using is pushing the p element outside of the table element in any case, whatsoever. 
-
-For my second round of validating: 
-
-![screenshot](documentation/validation/index_live_2nd.png) 
-
-The most obvious point, that textarea should not include a type attribute... that makes sense is cool to know, that textarea expects a type of text per default. 
-
-For the second point, I have to add headline (h) elements to improve for accessibility. I added those those, which the validator expected to see for accessibility purposed and you may see them in the comparisson table further down. 
-
-After this he was satisfied with my code: 
-
-![screenshot](documentation/validation/HTML/validation_complete.png)
-
-
-I have been doing adjusting to the Swahili version alongside the corrections of the index.html every time, but now for the acutal validation, as well: 
-
-![screenshot](documentation/validation/HTML/validating_swahili.png)
-
-Apart from a p element that had gone lost, I also have to change the attribute in the html element responsible for the language, this is for the browser to know which language the document is written in. The correct setting needs to be lang="sw" for swahili, as the validator points out. 
-
-This was all very helpful and increased my knowledge in HTML. 
-And successful:
-![screenshot](documentation/validation/HTML/validation_swahili_complete.png)
-
-Here you may compare the visual results: 
-
-| Issue | Before | After | Notes |
-| --- | --- | --- | --- |
-| Nested a inside button element | ![screenshot](documentation/validation/before_after/before_button.png) | ![screenshot](documentation/validation/before_after/after_button.png) | Improved semantics and accessibility|
-| Missing headline | ![screenshot](documentation/validation/before_after/article_before.png) | ![screenshot](documentation/validation/before_after/article_after.png) | Improved Accessibility |
-| Missing headline | ![screenshot](documentation/validation/before_after/copyright_before.png) | ![screenshot](documentation/validation/before_after/copyright_after.png) | Improved Accessibility |
-| --- | --- | --- | --- |
-| --- | --- | --- | --- |
-| --- | --- | --- | --- |
-
-
-
-
 ## Code Validation
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
-
-Use the space to discuss code validation for any of your own code files (where applicable).
-You are not required to validate external libraries/frameworks, such as imported Bootstrap, Materialize, Font Awesome, etc.
-
-**IMPORTANT**: You must provide a screenshot for each file you validate.
-
-**PRO TIP**: Always validate the live site pages, not your local code. There could be subtle/hidden differences.
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 ### HTML
 
@@ -115,6 +13,64 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 | --- | --- | --- | --- |
 |  | index.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 |  | swahili.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+
+#### HTML Validation Process and Improvements
+As I ran my code through the HTML validator, I was surprised to discover several deviations from standard practices. However, I view this as a learning opportunity. While I'm not yet an expert, I firmly believe that persistence and continuous improvement are key to developing expertise.
+
+##### Initial Validation Results
+
+-  **Initial validation screenshot** 
+
+![screenshot](documentation/validation/index_live.png) 
+
+The validator highlighted three main issues: 
+
+1. **Nested Elements:** The < a > element was incorrectly nested inside a < button > element. To resolve this, I removed the < button > element and styled the < a > elements to resemble buttons. This approach maintained the desired appearance while improving semantics and accessibility. I verified that the buttons on both pages still function as intended.
+
+2. **List Structure:** The list structure was incorrect according to HTML standards. To fix this, I adjusted the hierarchy by wrapping the < ul > inside an < li > item, rather than having it as a direct child of the < ol >. This correction adheres to proper HTML structure without affecting the functionality or appearance of the index section.
+
+3. **Paragraph in Table:** A < p > element was incorrectly placed inside a < table > element. I moved it outside and above the table. This change is not visually apparent as browsers like Firefox automatically adjust the rendering to place the paragraph outside the table.
+
+##### Second Round of Validation
+
+- **Second validation screenshot**
+
+![screenshot](documentation/validation/index_live_2nd.png) 
+
+The second validation revealed two additional points:
+
+1. **Textarea Attribute:** I learned that the < textarea > element should not include a type attribute, as it defaults to text input.
+2. **Heading Elements:** To improve accessibility, I added the required heading (< h >) elements as suggested by the validator. These additions can be seen in the comparison table below.
+
+- **Final validation screenshot** 
+
+![screenshot](documentation/validation/HTML/validation_complete.png)
+
+
+###### Comparisson Table
+
+| Issue | Before | After | Notes |
+| --- | --- | --- | --- |
+| Nested a inside button element | ![screenshot](documentation/validation/before_after/before_button.png) | ![screenshot](documentation/validation/before_after/after_button.png) | Improved semantics and accessibility|
+| Missing headline | ![screenshot](documentation/validation/before_after/article_before.png) | ![screenshot](documentation/validation/before_after/article_after.png) | Improved Accessibility |
+| Missing headline | ![screenshot](documentation/validation/before_after/copyright_before.png) | ![screenshot](documentation/validation/before_after/copyright_after.png) | Improved Accessibility |
+
+##### Swahili Version Validation
+
+- **Swahili validation screenshot**
+
+When validating the Swahili version, I discovered two issues: 
+
+1. A < p > element without any purpose, which I promptly removed.
+1. An incorrect language attribute in the < html > element. I updated it to lang="sw" for Swahili, as recommended by the validator.
+
+These adjustments resulted in successful validation:
+
+- **Swahili validation complete screenshot**
+![screenshot](documentation/validation/HTML/validation_swahili_complete.png)
+
+This validation process has been invaluable, significantly enhancing my understanding of HTML best practices and standards.
+
 
 ### CSS
 
