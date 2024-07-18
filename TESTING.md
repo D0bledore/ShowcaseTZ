@@ -7,7 +7,7 @@
 
 ### HTML
 
-I have used the recommended [HTML W3C Validator](https://validator.w3.org) to validate all of my HTML files.
+I have used the recommended [html W3C Validator](https://validator.w3.org) to validate all of my html files.
 
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
@@ -15,7 +15,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 |  | swahili.html | ![screenshot](documentation/validation/path-to-screenshot.png) | |
 
 #### HTML Validation Process and Improvements
-As I ran my code through the HTML validator, I was surprised to discover several deviations from standard practices. However, I view this as a learning opportunity. While I'm not yet an expert, I firmly believe that persistence and continuous improvement are key to developing expertise.
+As I ran my code through the html validator, I was surprised to discover several deviations from standard practices. However, I view this as a learning opportunity. While I'm not yet an expert, I firmly believe that persistence and continuous improvement are key to developing expertise.
 
 ##### Initial Validation Results
 
@@ -27,7 +27,7 @@ The validator highlighted three main issues:
 
 1. **Nested Elements:** The < a > element was incorrectly nested inside a < button > element. To resolve this, I removed the < button > element and styled the < a > elements to resemble buttons. This approach maintained the desired appearance while improving semantics and accessibility. I verified that the buttons on both pages still function as intended.
 
-2. **List Structure:** The list structure was incorrect according to HTML standards. To fix this, I adjusted the hierarchy by wrapping the < ul > inside an < li > item, rather than having it as a direct child of the < ol >. This correction adheres to proper HTML structure without affecting the functionality or appearance of the index section.
+2. **List Structure:** The list structure was incorrect according to html standards. To fix this, I adjusted the hierarchy by wrapping the < ul > inside an < li > item, rather than having it as a direct child of the < ol >. This correction adheres to proper html structure without affecting the functionality or appearance of the index section.
 
 3. **Paragraph in Table:** A < p > element was incorrectly placed inside a < table > element. I moved it outside and above the table. This change is not visually apparent as browsers like Firefox automatically adjust the rendering to place the paragraph outside the table.
 
@@ -44,7 +44,7 @@ The second validation revealed two additional points:
 
 - **Final validation screenshot** 
 
-![screenshot](documentation/validation/HTML/validation_complete.png)
+![screenshot](documentation/validation/html/validation_complete.png)
 
 
 ###### Comparisson Table
@@ -67,33 +67,29 @@ When validating the Swahili version, I discovered two issues:
 These adjustments resulted in successful validation:
 
 - **Swahili validation complete screenshot**
-![screenshot](documentation/validation/HTML/validation_swahili_complete.png)
+![screenshot](documentation/validation/html/validation_swahili_complete.png)
 
-This validation process has been invaluable, significantly enhancing my understanding of HTML best practices and standards.
+This validation process has been invaluable, significantly enhancing my understanding of html best practices and standards.
 
 
 ### CSS
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-| Directory | File | Screenshot | Notes |
-| --- | --- | --- | --- |
-| assets | styles.css | ![screenshot](documentation/validation/path-to-screenshot.png) | |
+**There were no errors found!**
+
+![screenshot](documentation/validation/css/css_validation_complete.png) | |
 
 ## Browser Compatibility
 
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
+I tested the live/deployed version of my site on the following browsers: 
 
-Use this space to discuss testing the live/deployed site on various browsers.
-
-Consider testing AT LEAST 3 different browsers, if available on your system.
-
-You DO NOT need to use all of the browsers below, just pick any 3 (minimum).
-
-Recommended browsers to consider:
-- [Chrome](https://www.google.com/chrome)
+- [Ungoogled Chrome](https://www.techspot.com/downloads/7181-ungoogled-chromium.html)
 - [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
 - [Brave](https://brave.com/download)
+- [Opera](https://www.opera.com/download)
+
+
 
 **IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
 
@@ -211,7 +207,7 @@ from the respective feature.
 🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-START OF NOTES (to be deleted)
 
 This section is primarily used for JavaScript and Python applications,
-but feel free to use this section to document any HTML/CSS bugs you might run into.
+but feel free to use this section to document any html/CSS bugs you might run into.
 
 It's very important to document any bugs you've discovered while developing the project.
 Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
@@ -279,7 +275,7 @@ Some examples:
 
     - Attempted fix: I tried to adjust the terminal size, but it only resizes the actual terminal, not the allowable area for text.
 
-- When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
+- When validating html with a semantic `section` element, the validator warns about lacking a header `h2-h6`. This is acceptable.
 
     ![screenshot](documentation/bugs/unfixed-bug03.png)
 
