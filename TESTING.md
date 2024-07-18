@@ -84,9 +84,9 @@ Here you may compare the visual results:
 
 | Issue | Before | After | Notes |
 | --- | --- | --- | --- |
-| Nested <a> inside <button> | ![screenshot](documentation/validation/before_after/before_button.png) | ![screenshot](documentation/validation/before_after/after_button.png) | Improved semantics and accessibility|
-| Missing headlines | ![screenshot](documentation/validation/before_after/article_before.png) | ![screenshot](documentation/validation/before_after/article_after.png) | Improved Accessibility |
-| Missing headlines | ![screenshot](documentation/validation/before_after/copyright_before.png) | ![screenshot](documentation/validation/before_after/copyright_after.png) | Improved Accessibility |
+| Nested a inside button element | ![screenshot](documentation/validation/before_after/before_button.png) | ![screenshot](documentation/validation/before_after/after_button.png) | Improved semantics and accessibility|
+| Missing headline | ![screenshot](documentation/validation/before_after/article_before.png) | ![screenshot](documentation/validation/before_after/article_after.png) | Improved Accessibility |
+| Missing headline | ![screenshot](documentation/validation/before_after/copyright_before.png) | ![screenshot](documentation/validation/before_after/copyright_after.png) | Improved Accessibility |
 | --- | --- | --- | --- |
 | --- | --- | --- | --- |
 | --- | --- | --- | --- |

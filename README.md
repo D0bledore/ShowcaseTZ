@@ -24,42 +24,69 @@ source: [amiresponsive](https://ui.dev/amiresponsive?url=https://d0bledore.githu
 
 ## UX
 
-In this section, you will briefly explain your design processes.
+My design process for Showcase Tanzania was guided by a clear vision and user-centric approach:
 
-### Colour Scheme
+### Conceptualization
+- The project began with a focus on Tanzania, evolving into a personal narrative that offers unique insights into the country.
 
-Explain your colours and the colour scheme.
+### Visual Identity
+- Created a striking landing page with a logo and a background that immediately communicates the Tanzanian theme to visitors.
 
-Example: 
+### Readability and Structure
+- Implemented responsive design with margins for wider screens (768px+) to enhance readability.
+- Used hr-elements to structure text sections, encouraging readers to progress through the content.
+- Incorporated pictures and videos to boost engagement and break up text.
 
+### Content Strategy
+- Balanced personal storytelling with informative content about Tanzania, using visuals to reinforce key points and maintain reader interest.
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
+### Navigation
+- Designed an intuitive navigation system allowing users to easily move between topics.
+- Included an index button and table of contents for quick access to specific sections.
+- Kept individual topics concise for easy re-reading and reference.
+- "Call to Action" button ('READ MY BLOG') to encourage immediate engagement with the site's primary content.
 
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
+### Accessibility
+- Added a translate button on the landing page to accommodate non-English speakers, particularly friends and family.
 
+### User Feedback
+- Integrated a feedback section, facilitating continuous improvement and potential future expansion of the project.
 
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
+### Color Scheme
 
-Example:
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-![screenshot](documentation/coolors.png)
+The color palette for Showcase Tanzania was carefully chosen to reflect the essence of Tanzania and create a visually appealing, easy-to-read experience:
+
+#### Tanzanian Flag Inspiration
+- The logo incorporates the Tanzanian flag as a background, immediately establishing the national context.
+- Landing page buttons mirror the flag's colors:
+  - Green on the left
+  - Blue on the right
+This color choice creates a strong visual connection to Tanzania from the moment visitors enter the site.
+
+#### Warm Accents for Key Sections
+- About section: `rgba(255, 180, 0, .25)` (soft golden yellow)
+- Index page: `khaki`
+These warm hues are used to differentiate non-blog content, creating a welcoming atmosphere and improving navigation.
+
+#### Classic Blog Styling
+- Primary text: `#000000` (black)
+- Background: White
+The main blog content adopts a classic black-and-white scheme, reminiscent of traditional print media. This choice:
+  - Enhances readability
+  - Creates a timeless, newspaper-like feel
+  - Allows images and videos to stand out
+
+This color scheme and design approach creates a simple yet engaging platform to explore Tanzanian culture and personal experiences.
 
 ### Typography
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
+In selecting the typography for Showcase Tanzania, I prioritized both aesthetics and readability. After careful consideration, I chose a single, versatile font family:
 
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
+- **[Lora](https://fonts.google.com/specimen/Lora)**: Used for all text throughout the site
 
-Example: 
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
+Lora is a well-balanced serif typeface superfamily designed for screen appearance. Lora's design is optimized for body text, ensuring comfortable reading across various screen sizes and resolutions. 
 
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+By using a single font family throughout the site, Showcase Tanzania maintains a cohesive visual identity while ensuring optimal readability for users engaging with the personal narratives and informational content about Tanzania.
 
 ## User Stories
 
@@ -82,81 +109,11 @@ In this section, list all of your user stories for the project.
 - As a returning site user, I would like to ____________, so that I can ____________.
 
 
-## Wireframes
-
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
-
-### Mobile Wireframes
-
-< details >
-< summary > Click here to see the Mobile Wireframes < / summary >
-
-Home
-  - ![screenshot](documentation/wireframes/mobile-home.png)
-
-About
-  - ![screenshot](documentation/wireframes/mobile-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/mobile-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/mobile-gallery.png)
-
-etc.
-  - repeat for any remaining mobile wireframes
-
-< / details >
-
-### Tablet Wireframes
-
-< details >
-< summary > Click here to see the Tablet Wireframes < / summary >
-
-Home
-  - ![screenshot](documentation/wireframes/tablet-home.png)
-
-About
-  - ![screenshot](documentation/wireframes/tablet-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/tablet-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/tablet-gallery.png)
-
-etc.
-  - repeat for any remaining tablet wireframes
-
-< / details >
-
-### Desktop Wireframes
-
-< details >
-< summary > Click here to see the Desktop Wireframes < / summary >
-
-Home
-  - ![screenshot](documentation/wireframes/desktop-home.png)
-
-About
-  - ![screenshot](documentation/wireframes/desktop-about.png)
-
-Contact
-  - ![screenshot](documentation/wireframes/desktop-contact.png)
-
-Gallery
-  - ![screenshot](documentation/wireframes/desktop-gallery.png)
-
-etc.
-  - repeat for any remaining desktop wireframes
-
-< / details >
-
-
 ## Features
 
 ### Navigation
+
+![screenshot](documentation/features/navigation.png)
 
 The website features a user-friendly navigation bar fixed at the bottom of the screen, providing easy access to key sections:
 
@@ -167,12 +124,11 @@ The website features a user-friendly navigation bar fixed at the bottom of the s
 
 This fixed-bottom navigation ensures that users can quickly move between sections of the site without needing to scroll, enhancing the overall user experience on both desktop and mobile devices.
 
-![screenshot](documentation/features/navigation.png)
-
-
 ### Landing Page
 
 The landing page features two prominent buttons that enhance user engagement and accessibility:
+
+![screenshot](documentation/features/buttons.png)
 
 1. **Language Toggle Button**
 
@@ -180,6 +136,8 @@ Dynamically changes based on the current language:
 
 - Labeled "Toleo la Kiswahili" (Swahili Version) on the English site
 - Changes to "English Version" on the Swahili site
+
+![screenshot](documentation/validation/before_after/after_button.png)
  
 Links to the alternate language version of the site:
 - English to Swahili (swahili.html)
@@ -189,14 +147,24 @@ Provides language accessibility, catering to both international and local (Tanza
 
 
 2. **Call to Action (CTA) Button**
+
 - Prominently displays "READ MY BLOG"
 - Directs users to the main blog content section
 - Encourages immediate engagement with the site's primary content
 
-![screenshot](documentation/features/landing_page.png)
+
+### About Section
+
+![screenshot](documentation/features/about.png)
+
+This "About" section encapsulates the multi-faceted nature of my project, highlighting its personal significance, educational value, and broader cultural impact. It also acknowledges my audience and the project's role in my professional development.
+
+By placing it in the navigation bar, I ensure it's easily accessible for visitors who might want to learn more about the blog's origins and goals, even if they dive straight into the content via the call-to-action. This way, readers can find important background information without disrupting their main reading experience. 
 
 
 ### Index Page
+
+![screenshot](documentation/features/index.png)
 
 The Index page serves as a dynamic content directory and navigation hub:
 
@@ -208,10 +176,9 @@ The Index page serves as a dynamic content directory and navigation hub:
 
 This feature streamlines the user experience, allowing visitors to efficiently find and access desired content throughout the blog.
 
-![screenshot](documentation/features/index.png)
-
-
 ### Feedback Form
+
+![screenshot](documentation/features/feedback.png)
 
 The website includes a user-friendly feedback form that allows visitors to share their thoughts directly with me:
 
@@ -220,12 +187,10 @@ The website includes a user-friendly feedback form that allows visitors to share
 - Includes a textarea for detailed feedback
 - Features a prominent "Send" button for submission
 - Utilizes form validation to ensure all required fields are filled
-- Submits data to a secure endpoint (https://formdump.codeinstitute.net/)
 - Accessible via the navigation bar, allowing easy feedback from any page
 
 This feature enhances user engagement by providing a straightforward way for readers to share their thoughts, ask questions, or provide feedback about the blog content. It reflects the personal nature of the blog and encourages a direct connection between the readers and myself as the author.
 
-![screenshot](documentation/features/feedback.png)
 
 ### Blog Features
 
@@ -260,12 +225,57 @@ This feature enhances user engagement by providing a straightforward way for rea
 ![screenshot](documentation/features/video_example.png)
 
 
-### Future Features
+## Future Features
 
-Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
+### Functional Feedback System
 
-- YOUR-TITLE-FOR-FUTURE-FEATURE-#1
-    - Any additional notes about this feature.
+- **Current Status**: The feedback form currently dumps data to "https://formdump.codeinstitute.net".
+- **Planned Improvement**: Implement a system to directly receive and process user feedback.
+- **Benefit**: Enable real-time engagement with readers and continuous improvement of content.
+
+### Update About Section
+
+As the content and quality of the site evolve, the About section will need to grow correspondingly (and on a seperate page). I plan to expand and refine this section to provide a more comprehensive overview of the project's development, goals, and impact. This ongoing update will ensure that visitors always have access to the most current and relevant information about Showcase Tanzania, reflecting its growth and increasing value as a resource.
+
+### Comprehensive Tourist Guide and Local Services
+
+- **Expansion Plan**: Add a dedicated section for both popular and off-the-beaten-path attractions in Tanzania.
+- **Content**: 
+  - Detailed information about attractions and experiences
+  - Practical visitor tips and high-quality visuals
+  - Curated list of accommodations suitable for various budgets
+  - Suggested travel itineraries for different types of travelers
+  - Contact information for reputable local guides and services
+- **Integration**: Seamlessly incorporate this new section using the existing navigation structure.
+- **Objective**: Provide easy access to valuable information for potential travelers, enhancing their planning and overall experience in Tanzania.
+- **Impact**: Offer a more comprehensive resource for visitors while indirectly supporting local tourism through informed travel choices.
+
+
+#### Enhanced Showcasing of Tanzania
+
+This expanded guide will transform Showcase Tanzania from a personal narrative into a valuable resource for all Tanzania-bound travelers. By offering detailed, firsthand information on attractions, accommodations, and local services, the blog will become an essential tool for trip planning, helping visitors discover the best of Tanzania while supporting local communities through informed tourism.
+
+##### Expanded Geographic Coverage
+- **Current Focus**: Bagamoyo and Dar Es Salaam
+- **Future Additions**:
+  - Indian Ocean Islands (Zanzibar, Mafia Island, etc.)
+  - Private island getaways
+  - Inland attractions and national parks
+
+##### Safari Experiences
+- **Highlight**: Tanzania's world-renowned safari opportunities
+- **Content**: Detailed guides, best practices, and personal experiences
+- **Focus**: Ethical and sustainable wildlife tourism
+
+##### Kilimanjaro Adventures
+- **Feature**: Comprehensive guide to climbing Africa's highest peak
+- **Include**: Preparation tips, route information, and personal accounts
+
+### Long-term Vision
+
+As Showcase Tanzania grows, it has the potential to become much more than a personal blog. By expanding its content and features, the site could transform into a comprehensive travel resource for Tanzania, offering in-depth information, practical tips, and unique insights that go beyond typical tourist guides. This evolution could open doors to freelance opportunities in travel writing and consulting, allowing me to share my expertise with a wider audience and potentially turn my passion into a profession.
+
+Furthermore, as the site gains recognition, I might have the chance to develop partnerships with local tourism boards and tour operators in Tanzania. These collaborations could not only enhance the quality and depth of information on my site but also contribute to promoting tourism practices in the country. By highlighting travel options and supporting local communities, Showcase Tanzania could play a role in fostering a more sustainable approach to tourism in Tanzania, benefiting both visitors and local residents alike.
 
 ## Tools & Technologies Used
 
@@ -337,15 +347,11 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
-
+There is no difference between the local version and the deployed version on github pages. 
 
 ## Credits
 
-In this section you need to reference where you got your content, media, and extra help from.
-It is common practice to use code from other repositories and tutorials,
-however, it is important to be very specific about these sources to avoid plagiarism.
-
+In this section I layout all the extra help I got. 
 
 ### Content
 
@@ -353,15 +359,22 @@ however, it is important to be very specific about these sources to avoid plagia
 | --- | --- | --- |
 | [Markdown Builder](https://tim.2bn.dev/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 
-|CodePen User thebabydino (https://codepen.io/thebabydino/details/zvKxeL) | Flag of Tanzania (pure CSS) | 
-    background:
-        linear-gradient(to right bottom,
-            #1eb53a 38%, #fcd116 0, #fcd116 42%, #000 0,
-            #000 58%, #fcd116 0, #fcd116 62%, #00a3dd 0);
+|[CodePen User thebabydino](https://codepen.io/thebabydino/details/zvKxeL) | CSS Stylesheet 'background flag of Logo' |  ![screenshot](documentation/credits/background-flag.png)|
+|[W3Schools](https://www.w3schools.com/html/html5_video.asp) | index.html | tutorial on HTML Video tag |
+|[W3Schools](https://www.w3schools.com/css/css_background_image.asp)| styles.css | tutorial on CSS Background Image |
+|[W3Schools](https://www.w3schools.com/css/css_navbar.asp)| index.html & styles.css | tutorial on CSS Navigation Bar |
+|[W3Schools](https://www.w3schools.com/css/css_display_visibility.asp) | styles.css | tutorial on CSS Layout - The display property | 
+|[Chat GPT](chat.openai.com)| index.html | used for generating text content from orignal to enhanced version | 
+|[Chat GPT](chat.openai.com)| swahili.html | used for translation from english to swahili | 
+|[Perplexity Ai](https://www.perplexity.ai)| swahili.html | used for translation from english to swahili |
+|[Perplexity Ai](https://www.perplexity.ai)| swahili.html | used for generating text content from original to enhanced version |
+|Rose Kilima (girlfriend)| swahili.html | checked translated swahili version |  
+|[Mentor Tim](https://github.com/TravelTimN) | index.html & styles.css | major assisstance in troubleshooting code, especially positioning of header | 
+
 
 ### Image Attribution
 
-All images were taken by me, except for these three, which are Public Domain: 
+**All images** were taken by me, **except** for these three, which are Public Domain: 
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
@@ -372,7 +385,4 @@ All images were taken by me, except for these three, which are Public Domain:
 
 ### Acknowledgements
 
-Use this space to provide attribution to any supports that helped, encouraged, or supported you throughout the development stages of this project.
-A few examples have been provided below to give you some ideas.
-
-- I would like to thank my partner (John/Jane), for believing in me, and allowing me to make this transition into software development.
+My special thanks go to my partner (Rose Kilima), for believing in me. She is also the reason I found Code Institute and applied for the Full-Stack Software Development Course. 
