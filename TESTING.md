@@ -13,6 +13,8 @@ I have used the recommended [html W3C Validator](https://validator.w3.org) to va
 | --- | --- | --- | --- |
 |  | index.html | ![screenshot](documentation/validation/html/index_validation_complete.png) | no error found |
 |  | swahili.html | ![screenshot](documentation/validation/css/css_validation_complete.png) | no error found |
+| --- | 404.html | ![screenshot](documentation/validation/html/404_validation_complete.png) | no error found |
+
 
 HTML Validation Links:
 
