@@ -17,7 +17,7 @@ This blog chronicles my unique experience in Tanzania, offering an intimate look
 This blog aims to bridge cultures, fostering understanding and appreciation for Tanzania's heritage while providing valuable information for potential travelers. Whether you're planning an African adventure or simply curious about life in Tanzania, this blog offers a balanced perspective on the country's beauty, challenges, and potential for personal growth. Join me on this transformative journey and explore why Tanzania is not just a destination, but an experience that can broaden your horizons.
 
 
-![screenshot](documentation/mockup.png)
+![screenshot](documentation/amiresponsive/mockup.png)
 
 source: [amiresponsive](https://ui.dev/amiresponsive?url=https://d0bledore.github.io/ShowcaseTZ)
 
