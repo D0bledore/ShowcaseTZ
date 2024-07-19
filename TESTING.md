@@ -13,13 +13,14 @@ I have used the recommended [html W3C Validator](https://validator.w3.org) to va
 | --- | --- | --- | --- |
 |  | index.html | ![screenshot](documentation/validation/html/index_validation_complete.png) | no error found |
 |  | swahili.html | ![screenshot](documentation/validation/css/css_validation_complete.png) | no error found |
-| --- | 404.html | ![screenshot](documentation/validation/html/404_validation_complete.png) | no error found |
+|  | 404.html | ![screenshot](documentation/validation/html/404_validation_complete.png) | no error found |
 
 
 HTML Validation Links:
 
 - **Index.html:** https://validator.w3.org/nu/?doc=https%3A%2F%2Fd0bledore.github.io%2FShowcaseTZ%2Findex.html
 - **swahili.html:** https://validator.w3.org/nu/?doc=https%3A%2F%2Fd0bledore.github.io%2FShowcaseTZ%2Fswahili.html
+- **404.html:** https://validator.w3.org/nu/?doc=https%3A%2F%2Fd0bledore.github.io%2FShowcaseTZ%2F404.html
 
 ### CSS
 
