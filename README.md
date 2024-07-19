@@ -61,11 +61,13 @@ The color palette for Showcase Tanzania was carefully chosen to reflect the esse
 - Landing page buttons mirror the flag's colors:
   - Green on the left
   - Blue on the right
+
 This color choice creates a strong visual connection to Tanzania from the moment visitors enter the site.
 
 #### Warm Accents for Key Sections
 - About section: `rgba(255, 180, 0, .25)` (soft golden yellow)
 - Index page: `khaki`
+
 These warm hues are used to differentiate non-blog content, creating a welcoming atmosphere and improving navigation.
 
 #### Classic Blog Styling
@@ -76,7 +78,7 @@ The main blog content adopts a classic black-and-white scheme, reminiscent of tr
   - Creates a timeless, newspaper-like feel
   - Allows images and videos to stand out
 
-This color scheme and design approach creates a simple yet engaging platform to explore Tanzanian culture and personal experiences.
+This design approach creates a simple yet engaging platform to explore Tanzanian culture and personal experiences.
 
 ### Typography
 
