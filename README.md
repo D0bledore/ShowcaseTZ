@@ -101,7 +101,7 @@ The website features a user-friendly navigation bar fixed at the bottom of the s
 - **Home**: The main landing page
 - **About**: Serves as a personal foreword to the blog and the blog's role as a project
 - **Index**: A comprehensive list of content that also serves as a navigation tool. Each list item is clickable, allowing users to easily jump to specific sections within the blog.
-- **Contact**: A contact form to submit inquiries
+- **Feedback**: A feedback form to submit feedback
 
 This fixed-bottom navigation ensures that users can quickly move between sections of the site without needing to scroll, enhancing the overall user experience on both desktop and mobile devices.
 
