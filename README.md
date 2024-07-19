@@ -88,27 +88,6 @@ Lora is a well-balanced serif typeface superfamily designed for screen appearanc
 
 By using a single font family throughout the site, Showcase Tanzania maintains a cohesive visual identity while ensuring optimal readability for users engaging with the personal narratives and informational content about Tanzania.
 
-## User Stories
-
-In this section, list all of your user stories for the project.
-
-### New Site Users
-
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-- As a new site user, I would like to ____________, so that I can ____________.
-
-### Returning Site Users
-
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-- As a returning site user, I would like to ____________, so that I can ____________.
-
-
 ## Features
 
 ### Navigation
@@ -233,7 +212,7 @@ This feature enhances user engagement by providing a straightforward way for rea
 - **Planned Improvement**: Implement a system to directly receive and process user feedback.
 - **Benefit**: Enable real-time engagement with readers and continuous improvement of content.
 
-### Update About Section
+### Update 'About' Section
 
 As the content and quality of the site evolve, the About section will need to grow correspondingly (and on a seperate page). I plan to expand and refine this section to provide a more comprehensive overview of the project's development, goals, and impact. This ongoing update will ensure that visitors always have access to the most current and relevant information about Showcase Tanzania, reflecting its growth and increasing value as a resource.
 
@@ -279,21 +258,15 @@ Furthermore, as the site gains recognition, I might have the chance to develop p
 
 ## Tools & Technologies Used
 
-In this section, you should explain the various tools and technologies used to develop the project.
-Make sure to put a link (where applicable) to the source, and explain what each was used for.
-Some examples have been provided, but this is just a sample only, your project might've used others.
-Feel free to delete any unused items below as necessary.
-
 - [![Markdown Builder](https://img.shields.io/badge/Markdown_Builder-grey?logo=markdown&logoColor=000000)](https://tim.2bn.dev/markdown-builder) used to generate README and TESTING templates.
 - [![Git](https://img.shields.io/badge/Git-grey?logo=git&logoColor=F05032)](https://git-scm.com) used for version control. (`git add`, `git commit`, `git push`)
 - [![GitHub](https://img.shields.io/badge/GitHub-grey?logo=github&logoColor=181717)](https://github.com) used for secure online code storage.
-- [![VSCode](https://img.shields.io/badge/VSCode-grey?logo=visualstudiocode&logoColor=007ACC)](https://code.visualstudio.com) used as my local IDE for development.
+- [![VSCode](https://img.shields.io/badge/VSCode-grey?logo=htmx&logoColor=007ACC)](https://code.visualstudio.com) used as my local IDE for development.
 - [![HTML](https://img.shields.io/badge/HTML-grey?logo=html5&logoColor=E34F26)](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [![CSS](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
 - [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) used for hosting the deployed front-end site.
 - [![ChatGPT](https://img.shields.io/badge/ChatGPT-grey?logo=chromatic&logoColor=75A99C)](https://chat.openai.com) used to help write and translate text content. 
-- [Perplexity Ai](https://www.perplexity.ai/) used to help write, translate text content and troubleshoot code after validation. 
-
+- [![Perplexity Ai](https://img.shields.io/badge/Perplexity_Ai-grey?logo=perplexity&logoColor=#1FB8CD)](https://www.perplexity.ai) used to help write, translate text content    and troubleshoot code after validation.
 
 ## Testing
 
@@ -369,7 +342,6 @@ In this section I layout all the extra help I got.
 |[Perplexity Ai](https://www.perplexity.ai)| swahili.html | used for generating text content from original to enhanced version |
 |Rose Kilima (girlfriend)| swahili.html | checked translated swahili version |  
 |[Mentor Tim](https://github.com/TravelTimN) | index.html & styles.css | major assisstance in troubleshooting code, especially positioning of header | 
-
 
 ### Image Attribution
 
