@@ -287,6 +287,16 @@ figure figcaption {
     width: 100px;
 }
 
+/* 404 HTML Page */
+#notfound p{
+    padding: 1rem;
+    text-align: justify;
+}
+
+#notfound h1, h2 {
+    text-align: center;
+    margin: 2rem 0;
+}
 
 /* Footer */
 #copyright {
