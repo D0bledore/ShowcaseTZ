@@ -12,7 +12,7 @@ I have used the recommended [html W3C Validator](https://validator.w3.org) to va
 | Directory | File | Screenshot | Notes |
 | --- | --- | --- | --- |
 |  | index.html | ![screenshot](documentation/validation/html/index_validation_complete.png) | no error found |
-|  | swahili.html | ![screenshot](documentation/validation/path-to-screenshot.png) | no error found |
+|  | swahili.html | ![screenshot](documentation/validation/css/css_validation_complete.png) | no error found |
 
 HTML Validation Links:
 
@@ -36,21 +36,9 @@ CSS Validation Link:
 I tested the live/deployed version of my site on the following browsers: 
 
 - [Ungoogled Chrome](https://www.techspot.com/downloads/7181-ungoogled-chromium.html)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
+- [Firefox](https://www.mozilla.org/firefox/download/)
 - [Brave](https://brave.com/download)
 - [Opera](https://www.opera.com/download)
-
-
-
-**IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
-
-Please note, there are services out there that can test multiple browser compatibilities at the same time.
-Some of these are paid services, but some are free.
-If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-Sample browser testing documentation:
-
-🛑🛑🛑🛑🛑🛑🛑🛑🛑🛑-END OF NOTES (to be deleted)
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
@@ -58,7 +46,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | --- | --- | --- | --- | --- | --- |
 | Ungoogled Chromium | ![screenshot](documentation/browsers/ungoogled_home.png) | ![screenshot](documentation/browsers/ungoogled_about.png) | ![screenshot](documentation/browsers/ungoogled_index.png) | ![screenshot](documentation/browsers/ungoogled_feedback.png) | Works as expected |
 | Firefox | ![screenshot](documentation/browsers/firefox_home.png) | ![screenshot](documentation/browsers/firefox_about.png) | ![screenshot](documentation/browsers/firefox_index.png) | ![screenshot](documentation/browsers/firefox_feedback.png) | Works as expected |
-| Brave | ![screenshot](documentation/browsers/brave_home.png) | ![screenshot](documentation/browsers/brave_about.png) | ![screenshot](documentation/browsers/brave_index_.png) | ![screenshot](documentation/browsers/brave_feedback_.png) | Works as expected |
+| Brave | ![screenshot](documentation/browsers/brave_home.png) | ![screenshot](documentation/browsers/brave_about.png) | ![screenshot](documentation/browsers/brave_index.png) | ![screenshot](documentation/browsers/brave_feedback.png) | Works as expected |
 | Opera | ![screenshot](documentation/browsers/opera_home.png) | ![screenshot](documentation/browsers/opera_about.png) | ![screenshot](documentation/browsers/opera_index.png) | ![screenshot](documentation/browsers/opera_feedback.png) | Works as expected |
 
 ## Responsiveness
@@ -120,7 +108,7 @@ The second validation revealed two additional points:
 
 | Issue | Before | After | Notes |
 | --- | --- | --- | --- |
-| Nested a inside button element | ![screenshot](documentation/validation/before_after/before_button.png) | ![screenshot](documentation/validation/before_after/after_button.png) | Improved semantics and accessibility|
+| Nested < a > inside < button > element | ![screenshot](documentation/validation/before_after/before_button.png) | ![screenshot](documentation/validation/before_after/after_button.png) | Improved semantics and accessibility|
 | Missing headline | ![screenshot](documentation/validation/before_after/article_before.png) | ![screenshot](documentation/validation/before_after/article_after.png) | Improved Accessibility |
 | Missing headline | ![screenshot](documentation/validation/before_after/copyright_before.png) | ![screenshot](documentation/validation/before_after/copyright_after.png) | Improved Accessibility |
 
